@@ -2,7 +2,7 @@
 
 A pure static, privacy-first invoice generator. Fill in your business and client details, add line items, and download a professional PDF invoice (via the browser print dialog). Everything runs in the browser – no account, no server, no data upload.
 
-**Live URL:** https://__SITE_URL__ (placeholder – replace after deploy)
+**Live URL:** https://quickinvoice-tool.vercel.app (placeholder – replace after deploy)
 
 ## Features
 
@@ -34,8 +34,8 @@ All switches live in `config.js`:
 1. **Google AdSense** – set `ADSENSE_CLIENT` to your publisher id (e.g. `ca-pub-1234567890123456`). The `.ad-slot` placeholders become real ad units automatically. Leave empty to show dashed placeholders.
 2. **Pro checkout** – create a product on Lemon Squeezy, Gumroad or a Stripe Payment Link and paste the URL in `PRO_CHECKOUT_URL`. Set `PRO_PRICE` to the displayed price. After purchase the buyer pastes the license key from the email into the Pro modal (`activateLicense` in `monetize.js` – replace with real license validation, e.g. the Lemon Squeezy license API, before going live).
 3. **Google Analytics** – set `GA_ID` (e.g. `G-XXXXXXX`). `track()` events fired: `generate`, `download`, `print`, `copy`, `save_invoice`, `pro_click`, `begin_checkout`.
-4. **Site URL** – after the first deploy, replace the literal `__SITE_URL__` in every file with your domain:
-   `grep -rl "__SITE_URL__" . | xargs sed -i 's/__SITE_URL__/yourdomain.com/g'`
+4. **Site URL** – after the first deploy, replace the literal `quickinvoice-tool.vercel.app` in every file with your domain:
+   `grep -rl "quickinvoice-tool.vercel.app" . | xargs sed -i 's/quickinvoice-tool.vercel.app/yourdomain.com/g'`
 
 ## Run locally
 
