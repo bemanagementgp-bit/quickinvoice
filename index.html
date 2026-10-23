@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Free Invoice Generator – Create &amp; Download PDF Invoices Online | QuickInvoice</title>
+  <meta name="description" content="Create professional invoices in seconds with QuickInvoice, a free online invoice generator. Add your logo, line items, tax and discounts, then download a PDF. No sign-up.">
+  <link rel="canonical" href="https://__SITE_URL__/">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://__SITE_URL__/">
+  <meta property="og:title" content="Free Invoice Generator – Create & Download PDF Invoices Online | QuickInvoice">
+  <meta property="og:description" content="Free online invoice generator. Add your logo, line items, tax and discounts, preview live and download a PDF invoice. No account, nothing uploaded.">
+  <meta property="og:image" content="https://__SITE_URL__/favicon.svg">
+  <meta property="og:site_name" content="QuickInvoice">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Free Invoice Generator – QuickInvoice">
+  <meta name="twitter:description" content="Create and download professional PDF invoices for free. Works in your browser, no sign-up, your data never leaves your device.">
+  <meta name="twitter:image" content="https://__SITE_URL__/favicon.svg">
+  <meta name="theme-color" content="#2563eb">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "QuickInvoice – Free Invoice Generator",
+    "url": "https://__SITE_URL__/",
+    "description": "Free online invoice generator. Create professional invoices with your logo, line items, tax and discounts, then download them as PDF. Runs entirely in your browser.",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Any",
+    "browserRequirements": "Requires JavaScript",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+    "featureList": [
+      "Live invoice preview",
+      "Download invoice as PDF",
+      "Logo upload",
+      "10 currencies",
+      "Tax, discount and shipping",
+      "Save invoices locally"
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Is QuickInvoice really free?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. Creating, previewing and downloading PDF invoices is completely free, with no limits on the number of invoices you generate. An optional one-time Pro upgrade removes the small branding line, unlocks unlimited saved invoices and adds two premium templates." }
+      },
+      {
+        "@type": "Question",
+        "name": "Do I need an account to create an invoice?",
+        "acceptedAnswer": { "@type": "Answer", "text": "No. There is no sign-up, login or email required. Open the page, fill in the details and download your invoice." }
+      },
+      {
+        "@type": "Question",
+        "name": "Is my invoice data private?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. Everything stays in your browser. Your business details, client information, logo and saved invoices are stored in your browser's local storage and are never uploaded to a server. The PDF is generated locally through your browser's print dialog." }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I add my logo to the invoice?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. Upload a PNG, JPG or SVG logo in the Your business section. It appears at the top of the invoice and is remembered for the next invoice you create on the same device." }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I save invoices and come back later?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. The form autosaves as you type, so your current invoice is restored when you return. You can also click Save invoice to keep a copy in your local history and reload or delete it later. Free users can keep up to 3 saved invoices; Pro removes the limit." }
+      },
+      {
+        "@type": "Question",
+        "name": "What is included in QuickInvoice Pro?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Pro is a one-time lifetime purchase. It removes the Generated with QuickInvoice line from printed invoices, gives you unlimited saved invoices and clients, unlocks the Modern and Minimal templates, and includes lifetime updates." }
+      }
+    ]
+  }
+  </script>
+  <script src="/config.js"></script>
+  <script src="/monetize.js"></script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="/" aria-label="QuickInvoice home"><span class="logo">Q</span>QuickInvoice</a>
+    <nav class="nav" aria-label="Main">
+      <button class="btn btn-primary btn-sm" onclick="openPro('nav')">Pro</button>
+      <button class="btn icon-btn" onclick="toggleTheme()" aria-label="Toggle theme">◐</button>
+    </nav>
+  </div>
+</header>
+
+<section class="hero container">
+  <h1>Free Invoice Generator</h1>
+  <p>Create a professional invoice in under a minute. Add your logo, line items, tax and discounts, watch the preview update live, then download it as a PDF.</p>
+  <div class="badges" aria-label="Highlights">
+    <span class="badge">100% free</span>
+    <span class="badge">No sign-up</span>
+    <span class="badge">Works in your browser</span>
+    <span class="badge">Nothing uploaded</span>
+    <span class="badge">10 currencies</span>
+  </div>
+</section>
+
+<main class="container">
+  <div class="tool-layout">
+    <div class="tool-column">
+
+      <!-- ===== Form ===== -->
+      <section class="card tool-card" aria-labelledby="formTitle">
+        <div class="row-between">
+          <h2 id="formTitle">Invoice details</h2>
+          <button class="btn btn-sm" id="btnNew" type="button" title="Start a fresh invoice with the next number">+ New invoice</button>
+        </div>
+
+        <div class="form-section">
+          <h3>Your business</h3>
+          <div class="grid-2">
+            <div class="field">
+              <label for="bizName">Business name</label>
+              <input id="bizName" type="text" placeholder="Northwind Design Studio" autocomplete="organization">
+            </div>
+            <div class="field">
+              <label for="bizEmail">Email</label>
+              <input id="bizEmail" type="email" placeholder="hello@yourbusiness.com" autocomplete="email">
+            </div>
+          </div>
+          <div class="grid-2">
+            <div class="field">
+              <label for="bizAddress">Address / tax ID</label>
+              <textarea id="bizAddress" rows="3" placeholder="Street, City, ZIP&#10;VAT / Tax ID"></textarea>
+            </div>
+            <div class="field">
+              <label for="bizLogo">Logo (optional)</label>
+              <div class="logo-field">
+                <div class="logo-thumb" id="logoThumb" aria-live="polite"><span class="hint">No logo</span></div>
+                <div class="row">
+                  <input id="bizLogo" type="file" accept="image/png,image/jpeg,image/svg+xml,image/webp" class="file-input">
+                  <button class="btn btn-sm btn-danger hidden" id="removeLogo" type="button">Remove</button>
+                </div>
+              </div>
+              <p class="hint">PNG, JPG, SVG or WebP. Stored only in your browser.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-section">
+          <h3>Bill to</h3>
+          <div class="grid-2">
+            <div class="field">
+              <label for="clientName">Client name</label>
+              <input id="clientName" type="text" placeholder="Acme Robotics Inc.">
+            </div>
+            <div class="field">
+              <label for="clientEmail">Client email</label>
+              <input id="clientEmail" type="email" placeholder="accounts@client.com">
+            </div>
+          </div>
+          <div class="field">
+            <label for="clientAddress">Client address</label>
+            <textarea id="clientAddress" rows="2" placeholder="Street, City, ZIP, Country"></textarea>
+          </div>
+        </div>
+
+        <div class="form-section">
+          <h3>Invoice info</h3>
+          <div class="grid-4 invoice-meta">
+            <div class="field">
+              <label for="invoiceNumber">Invoice number</label>
+              <input id="invoiceNumber" type="text" placeholder="INV-0001">
+            </div>
+            <div class="field">
+              <label for="issueDate">Issue date</label>
+              <input id="issueDate" type="date">
+            </div>
+            <div class="field">
+              <label for="dueDate">Due date</label>
+              <input id="dueDate" type="date">
+            </div>
+            <div class="field">
+              <label for="currency">Currency</label>
+              <select id="currency">
+                <option value="USD">USD – US Dollar</option>
+                <option value="EUR">EUR – Euro</option>
+                <option value="GBP">GBP – British Pound</option>
+                <option value="CAD">CAD – Canadian Dollar</option>
+                <option value="AUD">AUD – Australian Dollar</option>
+                <option value="MXN">MXN – Mexican Peso</option>
+                <option value="BRL">BRL – Brazilian Real</option>
+                <option value="ARS">ARS – Argentine Peso</option>
+                <option value="INR">INR – Indian Rupee</option>
+                <option value="JPY">JPY – Japanese Yen</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-section">
+          <div class="row-between">
+            <h3>Line items</h3>
+            <button class="btn btn-sm" id="addItem" type="button">+ Add item</button>
+          </div>
+          <div class="table-wrap">
+            <table class="items-table" aria-label="Line items">
+              <thead>
+                <tr>
+                  <th scope="col">Description</th>
+                  <th scope="col" class="num col-qty">Qty</th>
+                  <th scope="col" class="num col-price">Unit price</th>
+                  <th scope="col" class="num col-amount">Amount</th>
+                  <th scope="col" class="col-del"><span class="sr-only">Remove</span></th>
+                </tr>
+              </thead>
+              <tbody id="itemsBody"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="form-section">
+          <h3>Totals &amp; notes</h3>
+          <div class="grid-4 invoice-meta">
+            <div class="field">
+              <label for="taxRate">Tax %</label>
+              <input id="taxRate" type="number" min="0" max="100" step="0.01" inputmode="decimal" placeholder="0">
+            </div>
+            <div class="field">
+              <label for="discountValue">Discount</label>
+              <div class="row discount-row">
+                <input id="discountValue" type="number" min="0" step="0.01" inputmode="decimal" placeholder="0" aria-label="Discount value">
+                <select id="discountType" aria-label="Discount type">
+                  <option value="percent">%</option>
+                  <option value="fixed">Fixed</option>
+                </select>
+              </div>
+            </div>
+            <div class="field">
+              <label for="shipping">Shipping</label>
+              <input id="shipping" type="number" min="0" step="0.01" inputmode="decimal" placeholder="0">
+            </div>
+            <div class="field">
+              <label for="accentColor">Accent color</label>
+              <div class="row">
+                <input id="accentColor" type="color" value="#2563eb">
+                <button class="btn btn-sm" id="resetAccent" type="button" title="Reset to default blue">Reset</button>
+              </div>
+            </div>
+          </div>
+          <div class="field">
+            <label for="notes">Notes / payment terms</label>
+            <textarea id="notes" rows="3" placeholder="Payment due within 14 days by bank transfer…"></textarea>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== Preview ===== -->
+      <section class="card preview-card" aria-labelledby="previewTitle">
+        <div class="preview-toolbar no-print">
+          <div class="row-between">
+            <h2 id="previewTitle">Preview</h2>
+            <div class="template-picker" role="group" aria-label="Template">
+              <button class="tpl-btn active" type="button" data-template="classic">Classic</button>
+              <button class="tpl-btn" type="button" data-template="modern">Modern <span class="lock" aria-hidden="true">🔒</span></button>
+              <button class="tpl-btn" type="button" data-template="minimal">Minimal <span class="lock" aria-hidden="true">🔒</span></button>
+            </div>
+          </div>
+          <div class="row actions">
+            <button class="btn btn-primary" id="btnDownload" type="button">⬇ Download PDF</button>
+            <button class="btn" id="btnPrint" type="button">🖨 Print</button>
+            <button class="btn" id="btnCopy" type="button">📋 Copy share text</button>
+            <button class="btn" id="btnSave" type="button">💾 Save invoice</button>
+          </div>
+          <p class="hint">Download PDF opens your browser's print dialog – choose <strong>Save as PDF</strong> as the destination.</p>
+        </div>
+
+        <div class="preview-stage">
+          <div class="invoice-preview tpl-classic" id="invoicePreview" aria-live="polite" aria-label="Invoice preview"></div>
+        </div>
+      </section>
+
+      <!-- ===== History ===== -->
+      <section class="card history-card" aria-labelledby="historyTitle">
+        <div class="row-between">
+          <h2 id="historyTitle">Saved invoices <span class="count-badge" id="historyCount">0</span></h2>
+          <span class="hint" id="historyLimit"></span>
+        </div>
+        <ul class="history-list" id="historyList" aria-label="Saved invoices"></ul>
+        <p class="hint empty-hint" id="historyEmpty">No saved invoices yet. Click <strong>Save invoice</strong> to keep a copy here.</p>
+      </section>
+
+    </div>
+
+    <aside class="sidebar">
+      <div class="ad-slot" data-slot="sidebar-1"></div>
+      <div class="card pro-card">
+        <h3>Go Pro <span class="pro-badge">LIFETIME</span></h3>
+        <ul>
+          <li>No "Generated with QuickInvoice" line</li>
+          <li>Unlimited saved invoices &amp; clients</li>
+          <li>3 premium templates</li>
+          <li>Lifetime updates, pay once</li>
+        </ul>
+        <button class="btn btn-primary btn-block" onclick="openPro('sidebar')">Get Pro – <span data-pro-price></span></button>
+      </div>
+      <div class="ad-slot" data-slot="sidebar-2"></div>
+    </aside>
+  </div>
+
+  <div class="ad-slot horizontal" data-slot="below-tool"></div>
+</main>
+
+<section class="content container">
+  <div class="features">
+    <div class="feature"><div class="ic">⚡</div><h3>Live preview</h3><p>Every keystroke updates the invoice instantly. What you see is exactly what prints.</p></div>
+    <div class="feature"><div class="ic">🔒</div><h3>Private by design</h3><p>No account, no upload. Your details and logo stay in your browser's local storage.</p></div>
+    <div class="feature"><div class="ic">🌍</div><h3>10 currencies</h3><p>USD, EUR, GBP, CAD, AUD, MXN, BRL, ARS, INR and JPY, formatted correctly for each.</p></div>
+    <div class="feature"><div class="ic">💾</div><h3>Save &amp; reuse</h3><p>Autosave, saved history and auto-incrementing numbers so the next invoice takes seconds.</p></div>
+  </div>
+
+  <h2>How to create an invoice in 60 seconds</h2>
+  <ol>
+    <li><strong>Add your business details.</strong> Enter your name, email and address. Include your tax or VAT ID if you have one. Upload a logo once and it is remembered for future invoices.</li>
+    <li><strong>Fill in the client.</strong> Use the exact legal name of the company or person paying you, plus the email of the person who handles payments.</li>
+    <li><strong>Check the invoice number and dates.</strong> QuickInvoice suggests the next sequential number, today's date and a due date 14 days out. Adjust the due date to match the terms you agreed on.</li>
+    <li><strong>Add line items.</strong> One row per service or product with a clear description, quantity and unit price. The amount and totals calculate automatically.</li>
+    <li><strong>Set tax, discount and shipping.</strong> Enter your tax rate as a percentage, and any discount as a percentage or a fixed amount.</li>
+    <li><strong>Download the PDF.</strong> Click Download PDF, pick Save as PDF in the print dialog and send the file to your client. Click Save invoice to keep a copy in your history.</li>
+  </ol>
+
+  <h2>What an invoice must include</h2>
+  <p>Requirements vary by country, but a valid, professional invoice almost always contains the following elements. Missing any of them is the most common reason invoices get bounced back by an accounts department.</p>
+  <h3>The word "Invoice" and a unique number</h3>
+  <p>Each invoice needs a unique, sequential identifier such as INV-0042. Tax authorities in most jurisdictions require sequential numbering with no gaps, and clients use the number to reference payments. Never reuse a number, even if an invoice is cancelled: issue a credit note instead.</p>
+  <h3>Issue date and due date</h3>
+  <p>The issue date establishes when the payment clock starts and which tax period the sale belongs to. The due date makes your expectations explicit. "Net 14" or "Net 30" are common, but a specific calendar date is clearer and easier to chase.</p>
+  <h3>Seller and buyer identity</h3>
+  <p>Your legal business name, address and contact details, plus the client's legal name and billing address. If you are registered for VAT, GST or sales tax, your registration number is usually mandatory. In the EU, B2B invoices typically also need the customer's VAT number.</p>
+  <h3>Itemized description of goods or services</h3>
+  <p>Each line should describe what was delivered, the quantity or hours, the unit price and the line total. Vague descriptions like "consulting" slow approval; "Website redesign – 5 pages, delivered 12 Oct" gets paid.</p>
+  <h3>Taxes, discounts and the total due</h3>
+  <p>Show the subtotal, any discount, the tax rate and tax amount as separate lines, then the grand total in a clearly labelled currency. If a sale is tax-exempt or uses reverse charge, say so on the invoice.</p>
+  <h3>Payment terms and how to pay</h3>
+  <p>State the accepted methods (bank transfer, card, PayPal), the account details, any late-payment fee, and a short thank-you. The notes field at the bottom of the invoice is the right place for this.</p>
+
+  <h2>Tips to get paid faster</h2>
+  <ul>
+    <li><strong>Invoice immediately.</strong> Send the invoice the day the work is delivered. Every day of delay on your side becomes a day of delay on theirs.</li>
+    <li><strong>Address it to the right person.</strong> Ask who processes payments before you start the project and put that email on the invoice.</li>
+    <li><strong>Keep terms short and specific.</strong> Net 14 gets paid faster than Net 30, and a due date like "15 November 2026" gets paid faster than "within 14 days".</li>
+    <li><strong>Offer more than one payment method.</strong> A bank transfer is cheapest for you, but a card or PayPal option removes friction for small clients.</li>
+    <li><strong>Mention late fees politely.</strong> A line such as "1.5% monthly late fee applies after the due date" is standard and legal in most places.</li>
+    <li><strong>Follow up on a schedule.</strong> A friendly reminder on the due date and a firmer one seven days later recovers most late invoices without damaging the relationship.</li>
+  </ul>
+
+  <h2>Who QuickInvoice is for</h2>
+  <h3>Freelancers</h3>
+  <p>Designers, developers, writers and consultants who send a handful of invoices a month and do not want to pay for accounting software. Your logo, business details and the next invoice number are ready every time you open the page.</p>
+  <h3>Small businesses and side projects</h3>
+  <p>Shops, studios and agencies that need a clean, branded invoice fast, in any of ten currencies, without creating yet another account. Save frequent clients in your history and reload them in one click.</p>
+  <h3>Contractors and tradespeople</h3>
+  <p>Add materials and labour as separate line items, apply the right tax rate, include shipping or travel, and print the invoice on site or email the PDF from your phone.</p>
+
+  <h2>Frequently asked questions</h2>
+  <div class="faq">
+    <details>
+      <summary>Is QuickInvoice really free?</summary>
+      <p>Yes. Creating, previewing and downloading PDF invoices is completely free, with no limits on the number of invoices you generate. An optional one-time Pro upgrade removes the small branding line, unlocks unlimited saved invoices and adds two premium templates.</p>
+    </details>
+    <details>
+      <summary>Do I need an account to create an invoice?</summary>
+      <p>No. There is no sign-up, login or email required. Open the page, fill in the details and download your invoice.</p>
+    </details>
+    <details>
+      <summary>Is my invoice data private?</summary>
+      <p>Yes. Everything stays in your browser. Your business details, client information, logo and saved invoices are stored in your browser's local storage and are never uploaded to a server. The PDF is generated locally through your browser's print dialog.</p>
+    </details>
+    <details>
+      <summary>Can I add my logo to the invoice?</summary>
+      <p>Yes. Upload a PNG, JPG or SVG logo in the Your business section. It appears at the top of the invoice and is remembered for the next invoice you create on the same device.</p>
+    </details>
+    <details>
+      <summary>Can I save invoices and come back later?</summary>
+      <p>Yes. The form autosaves as you type, so your current invoice is restored when you return. You can also click Save invoice to keep a copy in your local history and reload or delete it later. Free users can keep up to 3 saved invoices; Pro removes the limit.</p>
+    </details>
+    <details>
+      <summary>What is included in QuickInvoice Pro?</summary>
+      <p>Pro is a one-time lifetime purchase. It removes the Generated with QuickInvoice line from printed invoices, gives you unlimited saved invoices and clients, unlocks the Modern and Minimal templates, and includes lifetime updates.</p>
+    </details>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <span>© <span data-year></span> QuickInvoice · Free invoice generator</span>
+    <span><a href="/privacy">Privacy</a> · <a href="/terms">Terms</a></span>
+    <span>Made with ❤️ for people who'd rather get paid than fight with spreadsheets</span>
+  </div>
+</footer>
+
+<div class="modal" id="proModal" role="dialog" aria-modal="true" aria-labelledby="proTitle">
+  <div class="card">
+    <button class="btn btn-sm close" onclick="closePro()" aria-label="Close">✕</button>
+    <h3 id="proTitle">Upgrade to QuickInvoice Pro <span class="pro-badge">LIFETIME</span></h3>
+    <div class="price"><span id="proPrice"></span> <small>one-time</small></div>
+    <ul class="benefits">
+      <li>✅ No branding line on printed invoices</li>
+      <li>✅ Unlimited saved invoices &amp; clients</li>
+      <li>✅ 3 premium templates (Classic, Modern, Minimal)</li>
+      <li>✅ Lifetime updates</li>
+    </ul>
+    <button class="btn btn-primary btn-block" onclick="goCheckout()">Get Pro</button>
+    <p class="hint" style="margin-top:12px">Already purchased? <a href="#" onclick="document.getElementById('licenseRow').classList.toggle('hidden');return false">Enter license key</a></p>
+    <div class="row hidden" id="licenseRow"><input id="licenseKey" placeholder="License key" aria-label="License key"><button class="btn" onclick="activateLicense(document.getElementById('licenseKey').value)">Activate</button></div>
+  </div>
+</div>
+<script src="/app.js"></script>
+</body>
+</html>
