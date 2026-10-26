@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Free Invoice for Graphic Designers – Branded PDF Invoice Generator | QuickInvoice</title>
+  <meta name="description" content="Create a branded invoice for graphic design work in minutes. Bill logo design, revisions, usage rights and rush fees, match your brand color and download a PDF, free and in-browser.">
+  <link rel="canonical" href="https://quickinvoice-tool.vercel.app/invoice-for-graphic-designers">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://quickinvoice-tool.vercel.app/invoice-for-graphic-designers">
+  <meta property="og:title" content="Free Invoice for Graphic Designers – Branded PDF Invoice Generator | QuickInvoice">
+  <meta property="og:description" content="Create a branded invoice for graphic design work in minutes. Bill logo design, revisions, usage rights and rush fees, match your brand color and download a PDF, free and in-browser.">
+  <meta property="og:image" content="https://quickinvoice-tool.vercel.app/favicon.svg">
+  <meta property="og:site_name" content="QuickInvoice">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Free Invoice for Graphic Designers – Branded PDF Invoice Generator | QuickInvoice">
+  <meta name="twitter:description" content="Create a branded invoice for graphic design work in minutes. Bill logo design, revisions, usage rights and rush fees, match your brand color and download a PDF, free and in-browser.">
+  <meta name="twitter:image" content="https://quickinvoice-tool.vercel.app/favicon.svg">
+  <meta name="theme-color" content="#2563eb">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/config.js"></script>
+  <script src="/monetize.js"></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Free Invoice for Graphic Designers – Branded PDF Invoice Generator | QuickInvoice","description":"Create a branded invoice for graphic design work in minutes. Bill logo design, revisions, usage rights and rush fees, match your brand color and download a PDF, free and in-browser.","url":"https://quickinvoice-tool.vercel.app/invoice-for-graphic-designers","isPartOf":{"@type":"WebSite","name":"QuickInvoice","url":"https://quickinvoice-tool.vercel.app/"}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"QuickInvoice","item":"https://quickinvoice-tool.vercel.app/"},{"@type":"ListItem","position":2,"name":"Invoice for Graphic Designers","item":"https://quickinvoice-tool.vercel.app/invoice-for-graphic-designers"}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can I use my exact brand color?","acceptedAnswer":{"@type":"Answer","text":"Yes. The accent color field accepts any hex value, so you can match your brand palette precisely. The preview updates immediately."}},{"@type":"Question","name":"How should I invoice revisions?","acceptedAnswer":{"@type":"Answer","text":"List included rounds at 0.00 so they appear on the invoice, then bill additional rounds as separate lines with your hourly or per-round rate. Clients rarely argue with charges they were warned about."}},{"@type":"Question","name":"Does the logo upload work with transparent PNGs?","acceptedAnswer":{"@type":"Answer","text":"Yes. PNG, JPG, SVG and WebP are supported. A transparent PNG or an SVG looks cleanest on the white invoice background."}},{"@type":"Question","name":"Is the PDF suitable for printing?","acceptedAnswer":{"@type":"Answer","text":"Yes. The print stylesheet is sized for A4 and US Letter. Choose Save as PDF in the print dialog for a file, or print directly."}}]}</script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="/" aria-label="QuickInvoice home">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span class="brand-text"><span class="brand-name">QuickInvoice</span><span class="brand-desc">Invoice generator</span></span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <span class="brand-by">by <b>Be Management</b></span>
+      <button class="btn btn-primary btn-sm" onclick="openPro('nav')">Pro</button>
+      <button class="btn icon-btn" onclick="toggleTheme()" aria-label="Toggle theme">◐</button>
+    </nav>
+  </div>
+</header>
+
+<section class="hero container">
+  <span class="eyebrow"><span class="dot" aria-hidden="true"></span>Be Management Tools · Invoicing · Graphic designers</span>
+  <h1>Invoice for Graphic Designers</h1>
+  <p class="tagline">Send an invoice that looks as considered as the work it bills, with your logo, your accent color and clear usage terms.</p>
+  <div class="badges" aria-label="Highlights">
+  <span class="badge">100% free</span>
+  <span class="badge">No sign-up</span>
+  <span class="badge">Works in your browser</span>
+  <span class="badge">Nothing uploaded</span>
+  <span class="badge">10 currencies</span>
+  </div>
+</section>
+
+<main class="container">
+  <div class="tool-layout">
+    <div class="tool-column">
+
+      <!-- ===== Form ===== -->
+      <section class="card tool-card" aria-labelledby="formTitle">
+        <div class="row-between">
+          <h2 id="formTitle">Invoice details</h2>
+          <button class="btn btn-sm" id="btnNew" type="button" title="Start a fresh invoice with the next number">+ New invoice</button>
+        </div>
+
+        <div class="form-section">
+          <h3>Your business</h3>
+          <div class="grid-2">
+            <div class="field">
+              <label for="bizName">Business name</label>
+              <input id="bizName" type="text" placeholder="Northwind Design Studio" autocomplete="organization">
+            </div>
+            <div class="field">
+              <label for="bizEmail">Email</label>
+              <input id="bizEmail" type="email" placeholder="hello@yourbusiness.com" autocomplete="email">
+            </div>
+          </div>
+          <div class="grid-2">
+            <div class="field">
+              <label for="bizAddress">Address / tax ID</label>
+              <textarea id="bizAddress" rows="3" placeholder="Street, City, ZIP&#10;VAT / Tax ID"></textarea>
+            </div>
+            <div class="field">
+              <label for="bizLogo">Logo (optional)</label>
+              <div class="logo-field">
+                <div class="logo-thumb" id="logoThumb" aria-live="polite"><span class="hint">No logo</span></div>
+                <div class="row">
+                  <input id="bizLogo" type="file" accept="image/png,image/jpeg,image/svg+xml,image/webp" class="file-input">
+                  <button class="btn btn-sm btn-danger hidden" id="removeLogo" type="button">Remove</button>
+                </div>
+              </div>
+              <p class="hint">PNG, JPG, SVG or WebP. Stored only in your browser.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-section">
+          <h3>Bill to</h3>
+          <div class="grid-2">
+            <div class="field">
+              <label for="clientName">Client name</label>
+              <input id="clientName" type="text" placeholder="Acme Robotics Inc.">
+            </div>
+            <div class="field">
+              <label for="clientEmail">Client email</label>
+              <input id="clientEmail" type="email" placeholder="accounts@client.com">
+            </div>
+          </div>
+          <div class="field">
+            <label for="clientAddress">Client address</label>
+            <textarea id="clientAddress" rows="2" placeholder="Street, City, ZIP, Country"></textarea>
+          </div>
+        </div>
+
+        <div class="form-section">
+          <h3>Invoice info</h3>
+          <div class="grid-4 invoice-meta">
+            <div class="field">
+              <label for="invoiceNumber">Invoice number</label>
+              <input id="invoiceNumber" type="text" placeholder="INV-0001">
+            </div>
+            <div class="field">
+              <label for="issueDate">Issue date</label>
+              <input id="issueDate" type="date">
+            </div>
+            <div class="field">
+              <label for="dueDate">Due date</label>
+              <input id="dueDate" type="date">
+            </div>
+            <div class="field">
+              <label for="currency">Currency</label>
+              <select id="currency">
+                <option value="USD">USD – US Dollar</option>
+                <option value="EUR">EUR – Euro</option>
+                <option value="GBP">GBP – British Pound</option>
+                <option value="CAD">CAD – Canadian Dollar</option>
+                <option value="AUD">AUD – Australian Dollar</option>
+                <option value="MXN">MXN – Mexican Peso</option>
+                <option value="BRL">BRL – Brazilian Real</option>
+                <option value="ARS">ARS – Argentine Peso</option>
+                <option value="INR">INR – Indian Rupee</option>
+                <option value="JPY">JPY – Japanese Yen</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-section">
+          <div class="row-between">
+            <h3>Line items</h3>
+            <button class="btn btn-sm" id="addItem" type="button">+ Add item</button>
+          </div>
+          <div class="table-wrap">
+            <table class="items-table" aria-label="Line items">
+              <thead>
+                <tr>
+                  <th scope="col">Description</th>
+                  <th scope="col" class="num col-qty">Qty</th>
+                  <th scope="col" class="num col-price">Unit price</th>
+                  <th scope="col" class="num col-amount">Amount</th>
+                  <th scope="col" class="col-del"><span class="sr-only">Remove</span></th>
+                </tr>
+              </thead>
+              <tbody id="itemsBody"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="form-section">
+          <h3>Totals &amp; notes</h3>
+          <div class="grid-4 invoice-meta">
+            <div class="field">
+              <label for="taxRate">Tax %</label>
+              <input id="taxRate" type="number" min="0" max="100" step="0.01" inputmode="decimal" placeholder="0">
+            </div>
+            <div class="field">
+              <label for="discountValue">Discount</label>
+              <div class="row discount-row">
+                <input id="discountValue" type="number" min="0" step="0.01" inputmode="decimal" placeholder="0" aria-label="Discount value">
+                <select id="discountType" aria-label="Discount type">
+                  <option value="percent">%</option>
+                  <option value="fixed">Fixed</option>
+                </select>
+              </div>
+            </div>
+            <div class="field">
+              <label for="shipping">Shipping</label>
+              <input id="shipping" type="number" min="0" step="0.01" inputmode="decimal" placeholder="0">
+            </div>
+            <div class="field">
+              <label for="accentColor">Accent color</label>
+              <div class="row">
+                <input id="accentColor" type="color" value="#2563eb">
+                <button class="btn btn-sm" id="resetAccent" type="button" title="Reset to default blue">Reset</button>
+              </div>
+            </div>
+          </div>
+          <div class="field">
+            <label for="notes">Notes / payment terms</label>
+            <textarea id="notes" rows="3" placeholder="Payment due within 14 days by bank transfer…"></textarea>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== Preview ===== -->
+      <section class="card preview-card" aria-labelledby="previewTitle">
+        <div class="preview-toolbar no-print">
+          <div class="row-between">
+            <h2 id="previewTitle">Preview</h2>
+            <div class="template-picker" role="group" aria-label="Template">
+              <button class="tpl-btn active" type="button" data-template="classic">Classic</button>
+              <button class="tpl-btn" type="button" data-template="modern">Modern <span class="lock" aria-hidden="true">🔒</span></button>
+              <button class="tpl-btn" type="button" data-template="minimal">Minimal <span class="lock" aria-hidden="true">🔒</span></button>
+            </div>
+          </div>
+          <div class="row actions">
+            <button class="btn btn-primary" id="btnDownload" type="button">⬇ Download PDF</button>
+            <button class="btn" id="btnPrint" type="button">🖨 Print</button>
+            <button class="btn" id="btnCopy" type="button">📋 Copy share text</button>
+            <button class="btn" id="btnSave" type="button">💾 Save invoice</button>
+          </div>
+          <p class="hint">Download PDF opens your browser's print dialog – choose <strong>Save as PDF</strong> as the destination.</p>
+        </div>
+
+        <div class="preview-stage">
+          <div class="invoice-preview tpl-classic" id="invoicePreview" aria-live="polite" aria-label="Invoice preview"></div>
+        </div>
+      </section>
+
+      <!-- ===== History ===== -->
+      <section class="card history-card" aria-labelledby="historyTitle">
+        <div class="row-between">
+          <h2 id="historyTitle">Saved invoices <span class="count-badge" id="historyCount">0</span></h2>
+          <span class="hint" id="historyLimit"></span>
+        </div>
+        <ul class="history-list" id="historyList" aria-label="Saved invoices"></ul>
+        <p class="hint empty-hint" id="historyEmpty">No saved invoices yet. Click <strong>Save invoice</strong> to keep a copy here.</p>
+      </section>
+
+    </div>
+
+    <aside class="sidebar">
+      <div class="ad-slot" data-slot="sidebar-1"></div>
+      <div class="card pro-card">
+        <h3>Go Pro <span class="pro-badge">LIFETIME</span></h3>
+        <ul>
+          <li>No "Generated with QuickInvoice" line</li>
+          <li>Unlimited saved invoices &amp; clients</li>
+          <li>3 premium templates</li>
+          <li>Lifetime updates, pay once</li>
+        </ul>
+        <button class="btn btn-primary btn-block" onclick="openPro('sidebar')">Get Pro – <span data-pro-price></span></button>
+      </div>
+      <div class="card lead-card" id="leadCard" hidden>
+        <h3>Get paid faster</h3>
+        <p class="hint">Invoice templates, payment-terms wording and new free tools, once or twice a month.</p>
+        <form class="lead-form" onsubmit="return subscribeNewsletter(event)">
+          <input type="email" name="email" required placeholder="you@email.com" aria-label="Email address" autocomplete="email">
+          <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="display:none" aria-hidden="true">
+          <button class="btn btn-primary" type="submit">Subscribe</button>
+        </form>
+        <p class="hint tiny">No spam. Unsubscribe anytime.</p>
+      </div>
+      <div class="ad-slot" data-slot="sidebar-2"></div>
+    </aside>
+  </div>
+
+  <div class="ad-slot horizontal" data-slot="below-tool"></div>
+</main>
+
+<!-- uses:start -->
+<section class="uses container" id="popular-uses" aria-labelledby="usesTitle">
+  <h2 id="usesTitle">More ways to use QuickInvoice</h2>
+  <ul class="uses-grid">
+      <li><a href="/invoice-generator-for-photographers">Invoice Generator for Photographers</a></li>
+      <li><a href="/freelance-writer-invoice-template">Freelance Writer Invoice Template</a></li>
+      <li><a href="/invoice-generator-for-contractors">Invoice Generator for Contractors</a></li>
+      <li><a href="/consulting-invoice-template">Consulting Invoice Template</a></li>
+      <li><a href="/invoice-for-graphic-designers" class="current" aria-current="page">Invoice for Graphic Designers</a></li>
+      <li><a href="/cleaning-service-invoice">Cleaning Service Invoice</a></li>
+      <li><a href="/tutoring-invoice-template">Tutoring Invoice Template</a></li>
+      <li><a href="/handyman-invoice-template">Handyman Invoice Template</a></li>
+  </ul>
+</section>
+<!-- uses:end -->
+
+<section class="content container">
+  <p class="breadcrumb"><a href="/">QuickInvoice</a> › Invoice for Graphic Designers</p>
+  <h2>Invoice for Graphic Designers: how it works</h2>
+  <p>For a designer the invoice is part of the deliverable: a clumsy one undercuts the brand you just built. QuickInvoice lets you set your logo and an exact hex accent color, choose a template, and see the result live before you export a PDF. The structure handles the awkward bits of design billing too, like separate lines for concepts, revisions and usage rights.</p><p>It is free, requires no sign-up and runs in your browser. Your logo and client details are stored locally and reused on the next invoice.</p>
+  <h2>Line items that prevent scope creep</h2>
+  <p>Vague invoices invite vague expectations. Split design work into the phases your proposal described:</p><ul><li><strong>Discovery / creative brief</strong> – a flat fee or hours.</li><li><strong>Concepts</strong> – "Logo concepts, 3 directions" as one line.</li><li><strong>Revision rounds</strong> – the rounds included in the quote at zero, and any extra rounds at your rate, so the client sees what was free.</li><li><strong>Final files and brand guide</strong> – one line each; it reminds clients what they received.</li><li><strong>Usage rights or buyout</strong> – a separate line stating the scope ("Full copyright transfer on payment" or "Web and social use, 2 years").</li><li><strong>Stock images, fonts and printing</strong> – pass-through costs at cost or with your stated markup.</li></ul><p>Add a note that files are released on cleared payment. It is the single most effective line a designer can put on an invoice.</p>
+  <h2>Branding the invoice itself</h2>
+  <p>Upload your logo as an SVG if you have one; it stays crisp in the PDF at any size. Pick the accent color with the color picker and type your brand hex value for an exact match. Keep the body neutral; the accent is used for headings, rules and the totals block.</p><p>The Classic template is free; Modern and Minimal are part of the one-time Pro upgrade, which also removes the small "Generated with QuickInvoice" line. Whatever template you use, check the PDF at 100% before sending: the preview is what prints, but a quick look at the first page catches a logo that is too tall or a long description that wraps.</p><p>Save the invoice afterwards and duplicate it for the next project; the line structure for a typical brand identity job rarely changes.</p>
+  <h2>Frequently asked questions</h2>
+  <div class="faq">
+    <details><summary>Can I use my exact brand color?</summary><p>Yes. The accent color field accepts any hex value, so you can match your brand palette precisely. The preview updates immediately.</p></details>
+    <details><summary>How should I invoice revisions?</summary><p>List included rounds at 0.00 so they appear on the invoice, then bill additional rounds as separate lines with your hourly or per-round rate. Clients rarely argue with charges they were warned about.</p></details>
+    <details><summary>Does the logo upload work with transparent PNGs?</summary><p>Yes. PNG, JPG, SVG and WebP are supported. A transparent PNG or an SVG looks cleanest on the white invoice background.</p></details>
+    <details><summary>Is the PDF suitable for printing?</summary><p>Yes. The print stylesheet is sized for A4 and US Letter. Choose Save as PDF in the print dialog for a file, or print directly.</p></details>
+  </div>
+  <p class="back-guide">Looking for the full guide, tips and the complete FAQ? Read the <a href="/">main QuickInvoice page</a>.</p>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <span class="brand-mark lg" aria-hidden="true"></span>
+      <div>
+        <strong>Be Management Tools</strong>
+        <p>A collection of free, private tools that run entirely in your browser. QuickInvoice is the invoice generator of the family, built and maintained by Be Management.</p>
+      </div>
+    </div>
+    <div class="footer-tools">
+      <strong>More free tools</strong>
+      <ul>
+        <li><a href="https://quickinvoice-tool.vercel.app" class="current">QuickInvoice · Invoices</a></li>
+        <li><a href="https://ratecalc-tool.vercel.app">RateCalc · Freelance rates</a></li>
+        <li><a href="https://qrforge-tool.vercel.app">QRForge · QR codes</a></li>
+        <li><a href="https://squish-tool.vercel.app">Squish · Image compressor</a></li>
+        <li><a href="https://growthcalc-tool.vercel.app">GrowthCalc · Compound interest</a></li>
+        <li><a href="https://subnetkit-tool.vercel.app">SubnetKit · IP subnets</a></li>
+      </ul>
+    </div>
+    <div class="footer-meta">
+      <span>© <span data-year></span> Be Management · QuickInvoice. Free invoice generator.</span>
+      <span><a href="/privacy">Privacy</a> · <a href="/terms">Terms</a></span>
+    </div>
+  </div>
+</footer>
+
+<div class="modal" id="proModal" role="dialog" aria-modal="true" aria-labelledby="proTitle">
+  <div class="card">
+    <button class="btn btn-sm close" onclick="closePro()" aria-label="Close">✕</button>
+    <h3 id="proTitle">Upgrade to QuickInvoice Pro <span class="pro-badge">LIFETIME</span></h3>
+    <div class="price"><span id="proPrice"></span> <small>one-time</small></div>
+    <ul class="benefits">
+      <li>✅ No branding line on printed invoices</li>
+      <li>✅ Unlimited saved invoices &amp; clients</li>
+      <li>✅ 3 premium templates (Classic, Modern, Minimal)</li>
+      <li>✅ Lifetime updates</li>
+    </ul>
+    <button class="btn btn-primary btn-block" onclick="goCheckout()">Get Pro</button>
+    <p class="hint" style="margin-top:12px">Already purchased? <a href="#" onclick="document.getElementById('licenseRow').classList.toggle('hidden');return false">Enter license key</a></p>
+    <div class="row hidden" id="licenseRow"><input id="licenseKey" placeholder="License key" aria-label="License key"><button class="btn" onclick="activateLicense(document.getElementById('licenseKey').value)">Activate</button></div>
+  </div>
+</div>
+<script src="/app.js"></script>
+</body>
+</html>

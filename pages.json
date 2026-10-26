@@ -1,0 +1,306 @@
+[
+  {
+    "slug": "invoice-generator-for-photographers",
+    "keyword": "invoice generator for photographers",
+    "title": "Free Invoice Generator for Photographers – PDF in 60 Seconds | QuickInvoice",
+    "description": "Free invoice generator for photographers. Add your logo, bill sessions, editing and prints, deduct the deposit, apply tax and download a PDF in your browser.",
+    "eyebrow": "Invoicing · Photographers",
+    "h1": "Invoice Generator for Photographers",
+    "tagline": "Bill shoots, editing hours, prints and travel on one clean PDF invoice with your logo at the top.",
+    "intro": "<p>A photography invoice has more moving parts than most: a session fee, retouching, licensing, prints, travel, and usually a deposit paid weeks earlier. QuickInvoice lets you list each as its own line item, subtract the retainer as a fixed discount, and send a PDF that matches the quote the client already approved.</p><p>The tool is free and runs entirely in your browser. Upload your logo once, pick an accent color that matches your portfolio site, and the next invoice takes under a minute.</p>",
+    "sections": [
+      {
+        "h2": "What to include on a photography invoice",
+        "html": "<p>Clients approve invoices faster when every line matches the shoot they remember:</p><ul><li><strong>Shoot details</strong> – date, location and type (wedding, headshots, product) in the notes.</li><li><strong>Session fee</strong> as one line, with hours as the quantity if you bill hourly.</li><li><strong>Post-production</strong> – retouching and culling billed per image or per hour.</li><li><strong>Deliverables</strong> – prints, albums and USB drives with quantity and unit price.</li><li><strong>Usage or licensing</strong> for commercial work, stating term and media (web only, print, 12 months).</li><li><strong>Travel and expenses</strong> – mileage, parking, second-shooter fees.</li><li><strong>Retainer already paid</strong> – entered as a fixed discount so the balance due is obvious.</li></ul><p>Finish with a due date and the payment methods you accept.</p>"
+      },
+      {
+        "h2": "Deposits, sales tax and delivery terms",
+        "html": "<p>Most photographers collect 25–50% up front. Rather than creating a second invoice, show the full price and apply the deposit as a fixed discount, labelled in the notes (\"Retainer received 12 March\"). The client sees the agreed total and the remaining balance on one page.</p><p>Tax treatment varies: in many US states physical prints are taxable while the session is not, and VAT-registered photographers in the UK and EU charge VAT on the whole service. Use the tax field for the taxable portion and state the rule in the notes.</p><p>Say when files are released. \"Edited images delivered within 14 days of final payment\" saves you from chasing balances after delivery.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can I add my photography logo and brand color?",
+        "a": "Yes. Upload a PNG, JPG or SVG logo and choose an accent color. Both are saved in your browser, so every future invoice uses them automatically."
+      },
+      {
+        "q": "How do I show a deposit the client already paid?",
+        "a": "Set the discount type to Fixed and enter the deposit. The invoice shows the full price, the deduction and the balance due."
+      },
+      {
+        "q": "Should I invoice per image or per session?",
+        "a": "Both work. Use quantity for per-image pricing (40 retouched images × $8) and a single line with quantity 1 for a flat session fee."
+      },
+      {
+        "q": "Is the PDF good enough for corporate clients?",
+        "a": "Yes. It is generated through your browser's print dialog at full resolution, with logo, sequential number, dates, totals and tax clearly laid out."
+      }
+    ],
+    "query": ""
+  },
+  {
+    "slug": "freelance-writer-invoice-template",
+    "keyword": "freelance writer invoice template",
+    "title": "Freelance Writer Invoice Template – Free PDF Generator | QuickInvoice",
+    "description": "Free freelance writer invoice template. Bill articles per word, per piece or per hour, add revisions and rush fees, set net-30 terms and download a PDF, no sign-up.",
+    "eyebrow": "Invoicing · Freelance writers",
+    "h1": "Freelance Writer Invoice Template",
+    "tagline": "Turn a month of articles, edits and rush jobs into one invoice your editor can approve in seconds.",
+    "intro": "<p>Writers rarely bill one thing at a time. A typical invoice covers three posts at different word counts, a revision round and a rush fee, sent to an editor who forwards it to accounts payable. QuickInvoice gives you a line per piece with quantity and unit price, so 1,200 words at $0.25 per word calculates itself.</p><p>It is free, needs no account and runs in your browser. Client details and invoice numbers are remembered locally, so the next invoice to the same publication is mostly prefilled.</p>",
+    "sections": [
+      {
+        "h2": "How to structure a writing invoice",
+        "html": "<p>Editors approve invoices by matching them to commissioned work, so name each piece as it was briefed:</p><ul><li><strong>One line per article</strong> with the working title, e.g. \"Blog: 10 Remote Onboarding Tips (1,200 words)\".</li><li><strong>Per-word work</strong> – quantity is the word count, unit price your rate. Per-piece work uses quantity 1 and the flat fee.</li><li><strong>Hourly work</strong> such as editing or interviews: quantity in hours.</li><li><strong>Extras</strong> – extra revision rounds, rush delivery, SEO research or image sourcing as separate lines, not buried in a higher rate.</li><li><strong>Purchase order or brief reference</strong> in the notes; invoices without it stall.</li></ul><p>Add the period covered (\"Work delivered 1–31 May\") so the invoice is easy to file.</p>"
+      },
+      {
+        "h2": "Payment terms, late fees and kill fees",
+        "html": "<p>Net 30 is standard for publications and agencies; direct clients often accept net 14. QuickInvoice defaults the due date to 14 days, so change it to match what you agreed and state the terms in the notes: \"Payment due within 30 days. 1.5% monthly interest on overdue balances.\" A late fee you never mentioned is unenforceable.</p><p>If a commissioned piece was cancelled, bill the kill fee (commonly 25–50% of the agreed rate) as its own line and name it. Keep invoice numbers sequential across all clients; gaps and duplicates cause problems at tax time. For international clients, pick the currency they pay in; USD, EUR, GBP, CAD, AUD, INR and more are formatted correctly.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How do I bill per word?",
+        "a": "Enter the word count as the quantity and your per-word rate as the unit price. 1,500 × 0.20 = 300.00 appears automatically."
+      },
+      {
+        "q": "Can I save my regular clients?",
+        "a": "Yes. Saved invoices keep the client details. Reload a previous invoice, change the items and number, and you are done."
+      },
+      {
+        "q": "Do I need to charge tax as a freelance writer?",
+        "a": "It depends on location. Many US freelancers don't collect sales tax on writing services; VAT-registered writers in the EU or UK usually must. Use the tax field only if it applies."
+      }
+    ],
+    "query": ""
+  },
+  {
+    "slug": "invoice-generator-for-contractors",
+    "keyword": "invoice generator for contractors",
+    "title": "Free Invoice Generator for Contractors – Labor, Materials & Tax | QuickInvoice",
+    "description": "Free invoice generator for contractors and trades. Separate labor from materials, add markup, tax and progress payments, then download a PDF invoice from your browser.",
+    "eyebrow": "Invoicing · Contractors & trades",
+    "h1": "Invoice Generator for Contractors",
+    "tagline": "Itemize labor, materials and progress payments on a PDF invoice you can build on site from your phone.",
+    "intro": "<p>Contractor invoices get disputed when labor and materials are lumped together or a progress payment isn't reflected. QuickInvoice lists every item with quantity and unit price, applies tax where it belongs, and shows the balance after the deposit on a PDF the homeowner or general contractor can forward to their bank.</p><p>It is free, works in your browser on a phone or laptop, and keeps your business details, logo and saved invoices locally. No app, no account.</p>",
+    "sections": [
+      {
+        "h2": "Separating labor, materials and extras",
+        "html": "<p>Group the work so the client can check it against the estimate:</p><ul><li><strong>Labor</strong> – one line per task (\"Framing – 16 hrs × $65\"). Hours as quantity, rate as unit price.</li><li><strong>Materials</strong> – major items with quantity and unit cost. If you add markup, bake it into the price or show a \"Materials handling 10%\" line; don't hide it.</li><li><strong>Permits, dump fees, equipment rental</strong> – pass-through costs on their own lines.</li><li><strong>Change orders</strong> – anything outside the original scope, with the date the client approved it.</li></ul><p>Put the estimate number and property address in the notes. Many jurisdictions tax materials but not labor; enter only the taxable portion or note the rule in writing.</p>"
+      },
+      {
+        "h2": "Progress billing and final invoices",
+        "html": "<p>On jobs running more than a couple of weeks, bill in stages: deposit, rough-in, completion. Use a sequential number for each (INV-0041, INV-0042) and name the stage in the notes (\"Progress payment 2 of 3 – drywall complete\"). To show a deposit already received, apply it as a fixed discount so the balance due is explicit.</p><p>On the final invoice add a short statement of completion and any warranty terms (\"Workmanship warranted for 12 months\"). Set a due date that matches your contract: 7–14 days is typical for residential work, net 30 for commercial GCs. Click Save invoice to keep a copy in your browser history.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can I use this on a phone at the job site?",
+        "a": "Yes. The page is responsive and the PDF is created through your phone's print or share dialog. Choose Save as PDF and send it by text or email."
+      },
+      {
+        "q": "How do I apply tax only to materials?",
+        "a": "The tax field applies to the subtotal, so for mixed jobs either bill materials on a separate invoice or enter the tax amount as its own line and explain the basis in the notes."
+      },
+      {
+        "q": "Can I show the deposit the client paid?",
+        "a": "Set the discount to Fixed and enter the deposit. The invoice shows the job total, the deduction and the remaining balance."
+      },
+      {
+        "q": "Does the invoice include my license number?",
+        "a": "Put it in the address / tax ID field under your business details. It prints under your name, which several states require for licensed trades."
+      }
+    ],
+    "query": ""
+  },
+  {
+    "slug": "consulting-invoice-template",
+    "keyword": "consulting invoice template",
+    "title": "Consulting Invoice Template – Free Hourly & Retainer Invoice PDF | QuickInvoice",
+    "description": "Free consulting invoice template for hourly, day-rate and retainer billing. Add PO numbers, expenses and tax, set net-30 terms and export a PDF that AP teams accept.",
+    "eyebrow": "Invoicing · Consultants",
+    "h1": "Consulting Invoice Template",
+    "tagline": "Bill hours, day rates or a monthly retainer on an invoice that clears corporate accounts payable the first time.",
+    "intro": "<p>Consulting invoices are judged by procurement, not by the person you worked with. A missing PO number, service period or tax ID is the usual reason a payment slips a month. QuickInvoice puts those details where AP teams look and produces a plain, numbered PDF they can file.</p><p>It is free and runs in your browser with nothing uploaded. Your legal details, logo and client list stay on your device, and invoice numbers increment automatically.</p>",
+    "sections": [
+      {
+        "h2": "What corporate clients expect on a consulting invoice",
+        "html": "<p>Check the invoice has everything a finance department looks for:</p><ul><li><strong>Your legal entity name and tax ID</strong> (EIN, VAT or ABN) in the business section.</li><li><strong>The client's legal name</strong> and the billing contact's email, not just your manager's.</li><li><strong>PO number, SOW or contract reference</strong> in the notes; many companies auto-reject invoices without it.</li><li><strong>Service period</strong> – \"Consulting services, 1–30 June 2026\".</li><li><strong>Line items by workstream</strong>: \"Discovery workshop – 2 days × $1,800\", \"Implementation support – 34 hrs × $220\".</li><li><strong>Reimbursable expenses</strong> at cost on separate lines, receipts sent alongside.</li></ul><p>Keep descriptions short; the narrative belongs in your status report.</p>"
+      },
+      {
+        "h2": "Hourly, day rate or retainer: how to lay each one out",
+        "html": "<p><strong>Hourly</strong>: quantity is hours, unit price your rate. Round to the quarter hour and attach a timesheet on large engagements.</p><p><strong>Day rate</strong>: quantity is days; note half days as 0.5.</p><p><strong>Retainer</strong>: one line, quantity 1, \"Monthly advisory retainer – July 2026\". If you track hours against it, mention hours used and remaining in the notes; it heads off questions about value.</p><p>Net 30 is normal for consulting, net 45 or 60 for large enterprises. Set the due date accordingly and state any late-payment interest you agreed. For cross-border clients choose the contract currency and, if you are not VAT-registered in their country, add the reverse-charge wording your accountant recommends.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Where do I put the PO number?",
+        "a": "On the first line of the notes / payment terms field, for example \"PO 4500123456\". Invoice numbers and dates have their own fields."
+      },
+      {
+        "q": "Can I bill in the client's currency?",
+        "a": "Yes. Choose USD, EUR, GBP, CAD, AUD, MXN, BRL, ARS, INR or JPY and every amount is formatted for that currency."
+      },
+      {
+        "q": "How do I invoice for expenses?",
+        "a": "Add each expense at cost as its own line with the date in the description (\"Flight LHR–BER 14 Jun\"), below your fee lines so the two stay separate."
+      },
+      {
+        "q": "Does the free version limit the number of invoices?",
+        "a": "No. PDFs are unlimited. The free plan keeps 3 saved invoices in local history; Pro removes that limit and the small branding line."
+      }
+    ],
+    "query": ""
+  },
+  {
+    "slug": "invoice-for-graphic-designers",
+    "keyword": "invoice for graphic designers",
+    "title": "Free Invoice for Graphic Designers – Branded PDF Generator | QuickInvoice",
+    "description": "Create a branded invoice for graphic design work in minutes. Bill concepts, revisions, usage rights and rush fees, match your brand color and download a PDF for free.",
+    "eyebrow": "Invoicing · Graphic designers",
+    "h1": "Invoice for Graphic Designers",
+    "tagline": "Send an invoice that looks as considered as the work it bills, with your logo, your accent color and clear usage terms.",
+    "intro": "<p>For a designer the invoice is part of the deliverable: a clumsy one undercuts the brand you just built. QuickInvoice lets you set your logo and an exact hex accent color, choose a template and see the result live before exporting a PDF. It also handles the awkward parts of design billing, like separate lines for concepts, revisions and usage rights.</p><p>It is free, requires no sign-up and runs in your browser. Logo and client details are stored locally and reused on the next invoice.</p>",
+    "sections": [
+      {
+        "h2": "Line items that prevent scope creep",
+        "html": "<p>Vague invoices invite vague expectations. Split the work into the phases your proposal described:</p><ul><li><strong>Discovery / creative brief</strong> – a flat fee or hours.</li><li><strong>Concepts</strong> – \"Logo concepts, 3 directions\" as one line.</li><li><strong>Revision rounds</strong> – included rounds at zero, extra rounds at your rate, so the client sees what was free.</li><li><strong>Final files and brand guide</strong> – one line each; it reminds clients what they received.</li><li><strong>Usage rights</strong> – a separate line stating scope (\"Full copyright transfer on payment\" or \"Web and social use, 2 years\").</li><li><strong>Stock images, fonts, printing</strong> – pass-through costs at cost or your stated markup.</li></ul><p>Add a note that files are released on cleared payment. It is the most effective line a designer can put on an invoice.</p>"
+      },
+      {
+        "h2": "Branding the invoice itself",
+        "html": "<p>Upload your logo as an SVG if you have one; it stays crisp in the PDF at any size. Type your brand hex value into the accent color picker for an exact match. The accent is used for headings, rules and the totals block, and the body stays neutral.</p><p>The Classic template is free; Modern and Minimal come with the one-time Pro upgrade, which also removes the small \"Generated with QuickInvoice\" line. Whichever you use, check the PDF at 100% before sending: the preview is what prints, but a quick look catches a logo that is too tall or a description that wraps. Save the invoice and duplicate it for the next project; the line structure of a brand identity job rarely changes.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can I use my exact brand color?",
+        "a": "Yes. The accent color field accepts any hex value, and the preview updates immediately."
+      },
+      {
+        "q": "How should I invoice revisions?",
+        "a": "List included rounds at 0.00 so they appear, then bill additional rounds as separate lines at your rate. Clients rarely argue with charges they were warned about."
+      },
+      {
+        "q": "Does the logo upload work with transparent PNGs?",
+        "a": "Yes. PNG, JPG, SVG and WebP are supported; a transparent PNG or SVG looks cleanest on the white invoice."
+      },
+      {
+        "q": "Is the PDF suitable for printing?",
+        "a": "Yes. The print stylesheet is sized for A4 and US Letter. Choose Save as PDF in the print dialog or print directly."
+      }
+    ],
+    "query": ""
+  },
+  {
+    "slug": "cleaning-service-invoice",
+    "keyword": "cleaning service invoice",
+    "title": "Cleaning Service Invoice – Free Generator, Residential & Commercial | QuickInvoice",
+    "description": "Free cleaning service invoice generator. Bill recurring house cleaning, deep cleans, move-out jobs and commercial contracts by visit or hour, then download a PDF fast.",
+    "eyebrow": "Invoicing · Cleaning services",
+    "h1": "Cleaning Service Invoice",
+    "tagline": "Invoice weekly cleans, one-off deep cleans and commercial contracts in under a minute, from any phone.",
+    "intro": "<p>Cleaning businesses send a lot of small invoices, so speed matters most. QuickInvoice remembers your business details and saved clients, suggests the next invoice number and today's date, and turns a list of visits into a PDF you can text or email before you leave the driveway.</p><p>The tool is free, runs in your browser and never uploads client addresses. Bill per visit, per hour or per square foot; the line items handle all three.</p>",
+    "sections": [
+      {
+        "h2": "Setting up line items for cleaning work",
+        "html": "<p>Match the invoice to how you quoted the job:</p><ul><li><strong>Recurring residential</strong> – one line per visit with the date (\"Standard clean – Tue 4 Jun\"), or quantity 4 × the visit price for a monthly invoice.</li><li><strong>Hourly</strong> – quantity in hours; note the number of cleaners if you bill per person-hour.</li><li><strong>Deep clean, move-in/move-out</strong> – a flat fee line, plus add-ons like oven, fridge, windows or carpet on their own lines.</li><li><strong>Commercial contracts</strong> – \"Office cleaning, 3 visits/week, June\" as one line, with square footage in the description.</li><li><strong>Supplies</strong> – only if agreed; most clients expect them included.</li></ul><p>Use the client address field for the service address when it differs from the billing address, as it does for landlords and property managers.</p>"
+      },
+      {
+        "h2": "Getting paid on time",
+        "html": "<p>Residential clients pay fastest when the invoice arrives the same day as the clean. Save a template invoice for each regular client, reload it, change the date and number, and download; it takes about thirty seconds. For monthly billing, send on the last clean of the month with net 7 terms.</p><p>Commercial clients usually need net 30 and a PO or contract number in the notes. List the payment methods you accept (Zelle, bank transfer, card link) and your cancellation or lockout fee policy so it appears on every invoice. Many areas treat residential cleaning as non-taxable while commercial janitorial work is taxable; check the local rule before using the tax field.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can I invoice a whole month of visits at once?",
+        "a": "Yes. Enter one line with quantity equal to the number of visits, or a line per visit with the date so the client can check each one."
+      },
+      {
+        "q": "How do I reuse the same invoice for a regular client?",
+        "a": "Click Save invoice. Next time, reload it from the saved list, update the dates and number, and download. Free keeps 3 saved invoices; Pro keeps unlimited."
+      },
+      {
+        "q": "Can I send the invoice by text message?",
+        "a": "Yes. Download the PDF on your phone and attach it, or use Copy share text to paste a plain-text summary with the total and due date."
+      }
+    ],
+    "query": ""
+  },
+  {
+    "slug": "tutoring-invoice-template",
+    "keyword": "tutoring invoice template",
+    "title": "Tutoring Invoice Template – Free Invoice Generator for Tutors | QuickInvoice",
+    "description": "Free tutoring invoice template for private tutors. Bill each session by date and duration, add materials and no-show fees, and download a PDF parents can pay from.",
+    "eyebrow": "Invoicing · Tutors",
+    "h1": "Tutoring Invoice Template",
+    "tagline": "List each lesson with its date and length, total it automatically and send parents a tidy PDF every month.",
+    "intro": "<p>Parents paying for tutoring want to see exactly which sessions they are paying for. A monthly invoice listing each lesson by date, subject and duration answers that before they ask. QuickInvoice makes the quantity field do the work: 1.5 hours at your hourly rate calculates itself, and the total updates as you add sessions.</p><p>It is free and runs in the browser with no sign-up. Save each student as an invoice, reload it next month and change the dates.</p>",
+    "sections": [
+      {
+        "h2": "How to lay out a tutoring invoice",
+        "html": "<p>Keep the structure the same every month so families recognise it:</p><ul><li><strong>Bill to</strong> – the parent's name and email, with the student in the notes (\"Sessions for Maya, Year 10 Maths\").</li><li><strong>One line per session</strong> – \"Maths – Mon 3 Jun, 16:00\" with duration as quantity (1 or 1.5) and your hourly rate as unit price, so parents can match it to their calendar.</li><li><strong>Packages</strong> – bill a 10-session block as one line and track used sessions in the notes.</li><li><strong>Materials</strong> – workbooks or exam papers at cost.</li><li><strong>Cancellation or no-show fees</strong> – only if agreed in advance, and named plainly.</li></ul><p>For group tutoring, bill each family their share rather than the whole group on one invoice.</p>"
+      },
+      {
+        "h2": "Payment terms and record-keeping for tutors",
+        "html": "<p>Most private tutors bill monthly in arrears with payment due within 7 days, or in advance for packages. Say which in the notes and list how to pay: bank details, a payment link, or cash. If you offer a sibling or referral discount, apply it with the percentage discount field so it is visible rather than silently lowering your rate.</p><p>Number invoices sequentially; at tax time you need the year's total, and families sometimes ask for annual statements for education savings accounts or employer reimbursement. Save invoice keeps a copy in your browser. Tutoring is usually exempt from sales tax or VAT as an educational service, but rules differ by country, so confirm before leaving the tax field at zero.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How do I bill a 45-minute lesson?",
+        "a": "Enter 0.75 as the quantity and your hourly rate as the unit price. The amount calculates automatically."
+      },
+      {
+        "q": "Can I invoice several students from one family?",
+        "a": "Yes. Add lines for each student's sessions and name the student in each description, so one parent gets one invoice."
+      },
+      {
+        "q": "Can I give a discount for a block of sessions?",
+        "a": "Use the discount field: % for a percentage off the subtotal or Fixed for a set amount. It appears as its own line in the totals."
+      },
+      {
+        "q": "Do parents need an account to pay?",
+        "a": "No. The invoice is a plain PDF. Put your bank or payment link details in the notes and they pay however you prefer."
+      }
+    ],
+    "query": ""
+  },
+  {
+    "slug": "handyman-invoice-template",
+    "keyword": "handyman invoice template",
+    "title": "Handyman Invoice Template – Free Generator with Parts & Labor | QuickInvoice",
+    "description": "Free handyman invoice template. Bill labor by the hour or job, list parts and materials, add a trip charge and tax, and download a PDF invoice from your phone on site.",
+    "eyebrow": "Invoicing · Handyman services",
+    "h1": "Handyman Invoice Template",
+    "tagline": "Labor, parts and a trip charge on one simple PDF invoice you can finish in the customer's driveway.",
+    "intro": "<p>Handyman jobs are small, varied and frequent: a leaking tap in the morning, a shelf and two door handles in the afternoon. Each needs an invoice showing what was done, how long it took and which parts were used. QuickInvoice keeps the form short enough to fill in on a phone, with totals, tax and invoice number handled for you.</p><p>It is free, works in any browser and stores your details locally, so the second invoice of the day is mostly prefilled.</p>",
+    "sections": [
+      {
+        "h2": "Itemizing a handyman job",
+        "html": "<p>Customers rarely question an invoice that reads like a list of what they watched you do:</p><ul><li><strong>Trip or call-out charge</strong> – one line, quantity 1. Say whether it includes the first hour.</li><li><strong>Labor</strong> – per task (\"Replace kitchen faucet – 1.5 hrs × $75\") rather than one lump of hours.</li><li><strong>Parts and materials</strong> – each with quantity and unit price. If you mark up parts, include it in the price or show it as a line; hidden markup is what triggers disputes when the customer finds the receipt price online.</li><li><strong>Disposal, parking, mileage</strong> – pass-through costs on their own lines.</li></ul><p>Put the job address in the client address field and a one-line summary in the notes. Materials are often taxable while labor is not; enter only what applies.</p>"
+      },
+      {
+        "h2": "Estimates, minimums and same-day payment",
+        "html": "<p>If you quoted from a photo and the job grew, say so on the invoice: \"Additional 0.5 hr approved on site\" avoids an argument later. State your minimum charge (commonly one or two hours) in the notes so it surprises no one.</p><p>Most handymen collect on completion. Set the due date to the issue date, list how you accept payment, and send the PDF while you are still there. Use Copy share text to paste a short summary with the total into a text message if the customer wants the number first. Keep numbers sequential and save each invoice; repeat customers call back, and reloading last time's invoice is faster than starting over.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can I invoice by the job instead of by the hour?",
+        "a": "Yes. Use one line with quantity 1 and the flat price, then list parts separately. A flat labor line plus itemized parts is the clearest format."
+      },
+      {
+        "q": "How do I add my license or insurance number?",
+        "a": "Add it in the address / tax ID field under your business name. It prints on every invoice, which property managers expect from licensed trades."
+      },
+      {
+        "q": "Is there a limit on how many invoices I can create?",
+        "a": "No. PDFs are unlimited and free. The free plan keeps 3 saved invoices in history; Pro removes the limit and the small branding line."
+      },
+      {
+        "q": "Does it work offline?",
+        "a": "Once loaded it runs entirely in your browser and your data lives in local storage. Load it before heading to a job with poor signal."
+      }
+    ],
+    "query": ""
+  }
+]
