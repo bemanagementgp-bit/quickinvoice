@@ -7,7 +7,7 @@
 
   const LS = { state: 'qi_state', history: 'qi_history' };
   const FREE_HISTORY_LIMIT = 3;
-  const DEFAULT_ACCENT = '#2563eb';
+  const DEFAULT_ACCENT = '#f97316';
   const TEMPLATES = ['classic', 'modern', 'minimal'];
   const FREE_TEMPLATES = ['classic'];
   const CURRENCY_LOCALE = {
