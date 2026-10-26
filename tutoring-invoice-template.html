@@ -4,17 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Tutoring Invoice Template – Free Invoice Generator for Tutors | QuickInvoice</title>
-  <meta name="description" content="Free tutoring invoice template for private tutors and small tutoring businesses. Bill sessions by hour, add materials and no-show fees, and download a PDF parents can pay from.">
+  <meta name="description" content="Free tutoring invoice template and generator. Bill per session or per hour, group lessons by week, add travel fees and download a PDF for parents or schools.">
   <link rel="canonical" href="https://quickinvoice-tool.vercel.app/tutoring-invoice-template">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://quickinvoice-tool.vercel.app/tutoring-invoice-template">
   <meta property="og:title" content="Tutoring Invoice Template – Free Invoice Generator for Tutors | QuickInvoice">
-  <meta property="og:description" content="Free tutoring invoice template for private tutors and small tutoring businesses. Bill sessions by hour, add materials and no-show fees, and download a PDF parents can pay from.">
+  <meta property="og:description" content="Free tutoring invoice template and generator. Bill per session or per hour, group lessons by week, add travel fees and download a PDF for parents or schools.">
   <meta property="og:image" content="https://quickinvoice-tool.vercel.app/favicon.svg">
   <meta property="og:site_name" content="QuickInvoice">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Tutoring Invoice Template – Free Invoice Generator for Tutors | QuickInvoice">
-  <meta name="twitter:description" content="Free tutoring invoice template for private tutors and small tutoring businesses. Bill sessions by hour, add materials and no-show fees, and download a PDF parents can pay from.">
+  <meta name="twitter:description" content="Free tutoring invoice template and generator. Bill per session or per hour, group lessons by week, add travel fees and download a PDF for parents or schools.">
   <meta name="twitter:image" content="https://quickinvoice-tool.vercel.app/favicon.svg">
   <meta name="theme-color" content="#2563eb">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -24,23 +24,40 @@
   <link rel="stylesheet" href="/styles.css">
   <script src="/config.js"></script>
   <script src="/monetize.js"></script>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Tutoring Invoice Template – Free Invoice Generator for Tutors | QuickInvoice","description":"Free tutoring invoice template for private tutors and small tutoring businesses. Bill sessions by hour, add materials and no-show fees, and download a PDF parents can pay from.","url":"https://quickinvoice-tool.vercel.app/tutoring-invoice-template","isPartOf":{"@type":"WebSite","name":"QuickInvoice","url":"https://quickinvoice-tool.vercel.app/"}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Tutoring Invoice Template – Free Invoice Generator for Tutors | QuickInvoice","description":"Free tutoring invoice template and generator. Bill per session or per hour, group lessons by week, add travel fees and download a PDF for parents or schools.","url":"https://quickinvoice-tool.vercel.app/tutoring-invoice-template","isPartOf":{"@type":"WebSite","name":"QuickInvoice","url":"https://quickinvoice-tool.vercel.app/"}}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"QuickInvoice","item":"https://quickinvoice-tool.vercel.app/"},{"@type":"ListItem","position":2,"name":"Tutoring Invoice Template","item":"https://quickinvoice-tool.vercel.app/tutoring-invoice-template"}]}</script>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do I bill a 45-minute lesson?","acceptedAnswer":{"@type":"Answer","text":"Enter 0.75 as the quantity and your hourly rate as the unit price. The amount calculates automatically and shows on the invoice as 0.75 × rate."}},{"@type":"Question","name":"Can I invoice several students from one family?","acceptedAnswer":{"@type":"Answer","text":"Yes. Add lines for each student's sessions and mention the student in each description, so one parent gets one invoice with everything on it."}},{"@type":"Question","name":"Can I give a discount for a block of sessions?","acceptedAnswer":{"@type":"Answer","text":"Use the discount field: choose % for a percentage off the subtotal or Fixed for a set amount. The discount appears as its own line in the totals."}},{"@type":"Question","name":"Do parents need an account to pay?","acceptedAnswer":{"@type":"Answer","text":"No. The invoice is a plain PDF. Include your bank or payment link details in the notes and they pay however you prefer."}}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do I bill a 45-minute lesson?","acceptedAnswer":{"@type":"Answer","text":"Enter 0.75 as the quantity and your hourly rate as the unit price. The amount calculates automatically."}},{"@type":"Question","name":"Can I invoice several students from one family?","acceptedAnswer":{"@type":"Answer","text":"Yes. Add lines for each student's sessions and name the student in each description, so one parent gets one invoice."}},{"@type":"Question","name":"Can I give a discount for a block of sessions?","acceptedAnswer":{"@type":"Answer","text":"Use the discount field: % for a percentage off the subtotal or Fixed for a set amount. It appears as its own line in the totals."}},{"@type":"Question","name":"Do parents need an account to pay?","acceptedAnswer":{"@type":"Answer","text":"No. The invoice is a plain PDF. Put your bank or payment link details in the notes and they pay however you prefer."}}]}</script>
 </head>
 <body>
 
 <header class="site-header">
   <div class="container">
+    <div class="navbar">
     <a class="brand" href="/" aria-label="QuickInvoice home">
       <span class="brand-mark" aria-hidden="true"></span>
       <span class="brand-text"><span class="brand-name">QuickInvoice</span><span class="brand-desc">Invoice generator</span></span>
     </a>
     <nav class="nav" aria-label="Main">
+      <details class="more-tools">
+        <summary class="btn btn-ghost btn-sm">More tools ▾</summary>
+        <div class="menu">
+          <a href="https://quickinvoice-tool.vercel.app" class="current"><span class="mi">Q</span>QuickInvoice<small>Invoices</small></a>
+          <a href="https://ratecalc-tool.vercel.app"><span class="mi">R</span>RateCalc<small>Freelance rates</small></a>
+          <a href="https://qrforge-tool.vercel.app"><span class="mi">Q</span>QRForge<small>QR codes</small></a>
+          <a href="https://squish-tool.vercel.app"><span class="mi">S</span>Squish<small>Image compressor</small></a>
+          <a href="https://growthcalc-tool.vercel.app"><span class="mi">G</span>GrowthCalc<small>Compound interest</small></a>
+          <a href="https://subnetkit-tool.vercel.app"><span class="mi">N</span>SubnetKit<small>IP subnets</small></a>
+          <a href="https://shotstudio-tool.vercel.app"><span class="mi">S</span>Screenshot Studio<small>Screenshot mockups</small></a>
+          <a href="https://mockuplab-tool.vercel.app"><span class="mi">M</span>Social Mockup Lab<small>Chat & post mockups</small></a>
+          <a href="https://carouselmaker-tool.vercel.app"><span class="mi">C</span>Carousel Maker<small>Carousel slides</small></a>
+        </div>
+      </details>
+      <span class="sep" aria-hidden="true"></span>
       <span class="brand-by">by <b>Be Management</b></span>
       <button class="btn btn-primary btn-sm" onclick="openPro('nav')">Pro</button>
       <button class="btn icon-btn" onclick="toggleTheme()" aria-label="Toggle theme">◐</button>
     </nav>
+    </div>
   </div>
 </header>
 
@@ -292,17 +309,17 @@
 <section class="content container">
   <p class="breadcrumb"><a href="/">QuickInvoice</a> › Tutoring Invoice Template</p>
   <h2>Tutoring Invoice Template: how it works</h2>
-  <p>Parents paying for tutoring want to see exactly which sessions they are paying for. A monthly invoice that lists each lesson by date, subject and duration answers that before they ask. QuickInvoice makes the quantity field do the work: 1.5 hours at your hourly rate calculates itself, and the running total updates as you add sessions.</p><p>It is free and runs in the browser with no sign-up. Save each student as an invoice, reload it next month and change the dates.</p>
+  <p>Parents paying for tutoring want to see exactly which sessions they are paying for. A monthly invoice listing each lesson by date, subject and duration answers that before they ask. QuickInvoice makes the quantity field do the work: 1.5 hours at your hourly rate calculates itself, and the total updates as you add sessions.</p><p>It is free and runs in the browser with no sign-up. Save each student as an invoice, reload it next month and change the dates.</p>
   <h2>How to lay out a tutoring invoice</h2>
-  <p>Keep the structure the same every month so families recognise it:</p><ul><li><strong>Bill to</strong> – the parent or guardian's name and email, with the student's name in the notes ("Sessions for Maya, Year 10 Maths").</li><li><strong>One line per session</strong> – "Maths – Mon 3 Jun, 16:00" with the duration as quantity (1 or 1.5) and your hourly rate as unit price. Parents can match it to their calendar.</li><li><strong>Packages</strong> – if you sell 10-session blocks, bill the block as one line and track used sessions in the notes.</li><li><strong>Materials</strong> – workbooks or exam papers at cost on a separate line.</li><li><strong>Cancellation or no-show fees</strong> – only if your policy was agreed in advance, and name it plainly.</li></ul><p>Group tutoring works the same way: bill each family their share, not the whole group on one invoice.</p>
+  <p>Keep the structure the same every month so families recognise it:</p><ul><li><strong>Bill to</strong> – the parent's name and email, with the student in the notes ("Sessions for Maya, Year 10 Maths").</li><li><strong>One line per session</strong> – "Maths – Mon 3 Jun, 16:00" with duration as quantity (1 or 1.5) and your hourly rate as unit price, so parents can match it to their calendar.</li><li><strong>Packages</strong> – bill a 10-session block as one line and track used sessions in the notes.</li><li><strong>Materials</strong> – workbooks or exam papers at cost.</li><li><strong>Cancellation or no-show fees</strong> – only if agreed in advance, and named plainly.</li></ul><p>For group tutoring, bill each family their share rather than the whole group on one invoice.</p>
   <h2>Payment terms and record-keeping for tutors</h2>
-  <p>Most private tutors bill monthly in arrears with payment due within 7 days, or in advance for packages. Say which in the notes and list how to pay: bank transfer details, a payment link, or cash accepted. If you offer a sibling or referral discount, apply it with the percentage discount field so it is visible rather than silently lowering your rate.</p><p>Keep every invoice numbered sequentially; at tax time you will need the year's total, and families sometimes ask for annual statements for education savings accounts or employer reimbursement. Clicking Save invoice keeps a copy in your browser. Tutoring is usually exempt from sales tax or VAT as an educational service, but rules differ by country, so confirm before leaving the tax field at zero.</p>
+  <p>Most private tutors bill monthly in arrears with payment due within 7 days, or in advance for packages. Say which in the notes and list how to pay: bank details, a payment link, or cash. If you offer a sibling or referral discount, apply it with the percentage discount field so it is visible rather than silently lowering your rate.</p><p>Number invoices sequentially; at tax time you need the year's total, and families sometimes ask for annual statements for education savings accounts or employer reimbursement. Save invoice keeps a copy in your browser. Tutoring is usually exempt from sales tax or VAT as an educational service, but rules differ by country, so confirm before leaving the tax field at zero.</p>
   <h2>Frequently asked questions</h2>
   <div class="faq">
-    <details><summary>How do I bill a 45-minute lesson?</summary><p>Enter 0.75 as the quantity and your hourly rate as the unit price. The amount calculates automatically and shows on the invoice as 0.75 × rate.</p></details>
-    <details><summary>Can I invoice several students from one family?</summary><p>Yes. Add lines for each student's sessions and mention the student in each description, so one parent gets one invoice with everything on it.</p></details>
-    <details><summary>Can I give a discount for a block of sessions?</summary><p>Use the discount field: choose % for a percentage off the subtotal or Fixed for a set amount. The discount appears as its own line in the totals.</p></details>
-    <details><summary>Do parents need an account to pay?</summary><p>No. The invoice is a plain PDF. Include your bank or payment link details in the notes and they pay however you prefer.</p></details>
+    <details><summary>How do I bill a 45-minute lesson?</summary><p>Enter 0.75 as the quantity and your hourly rate as the unit price. The amount calculates automatically.</p></details>
+    <details><summary>Can I invoice several students from one family?</summary><p>Yes. Add lines for each student's sessions and name the student in each description, so one parent gets one invoice.</p></details>
+    <details><summary>Can I give a discount for a block of sessions?</summary><p>Use the discount field: % for a percentage off the subtotal or Fixed for a set amount. It appears as its own line in the totals.</p></details>
+    <details><summary>Do parents need an account to pay?</summary><p>No. The invoice is a plain PDF. Put your bank or payment link details in the notes and they pay however you prefer.</p></details>
   </div>
   <p class="back-guide">Looking for the full guide, tips and the complete FAQ? Read the <a href="/">main QuickInvoice page</a>.</p>
 </section>
@@ -325,6 +342,9 @@
         <li><a href="https://squish-tool.vercel.app">Squish · Image compressor</a></li>
         <li><a href="https://growthcalc-tool.vercel.app">GrowthCalc · Compound interest</a></li>
         <li><a href="https://subnetkit-tool.vercel.app">SubnetKit · IP subnets</a></li>
+        <li><a href="https://shotstudio-tool.vercel.app">Screenshot Studio · Screenshot mockups</a></li>
+        <li><a href="https://mockuplab-tool.vercel.app">Social Mockup Lab · Chat & post mockups</a></li>
+        <li><a href="https://carouselmaker-tool.vercel.app">Carousel Maker · Carousel slides</a></li>
       </ul>
     </div>
     <div class="footer-meta">

@@ -4,17 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Free Invoice Generator for Photographers – PDF in 60 Seconds | QuickInvoice</title>
-  <meta name="description" content="Free invoice generator for photographers. Add your logo, bill sessions, editing and prints, apply deposits and tax, and download a clean PDF invoice in your browser.">
+  <meta name="description" content="Free invoice generator for photographers. Add your logo, bill sessions, editing and prints, deduct the deposit, apply tax and download a PDF in your browser.">
   <link rel="canonical" href="https://quickinvoice-tool.vercel.app/invoice-generator-for-photographers">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://quickinvoice-tool.vercel.app/invoice-generator-for-photographers">
   <meta property="og:title" content="Free Invoice Generator for Photographers – PDF in 60 Seconds | QuickInvoice">
-  <meta property="og:description" content="Free invoice generator for photographers. Add your logo, bill sessions, editing and prints, apply deposits and tax, and download a clean PDF invoice in your browser.">
+  <meta property="og:description" content="Free invoice generator for photographers. Add your logo, bill sessions, editing and prints, deduct the deposit, apply tax and download a PDF in your browser.">
   <meta property="og:image" content="https://quickinvoice-tool.vercel.app/favicon.svg">
   <meta property="og:site_name" content="QuickInvoice">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Free Invoice Generator for Photographers – PDF in 60 Seconds | QuickInvoice">
-  <meta name="twitter:description" content="Free invoice generator for photographers. Add your logo, bill sessions, editing and prints, apply deposits and tax, and download a clean PDF invoice in your browser.">
+  <meta name="twitter:description" content="Free invoice generator for photographers. Add your logo, bill sessions, editing and prints, deduct the deposit, apply tax and download a PDF in your browser.">
   <meta name="twitter:image" content="https://quickinvoice-tool.vercel.app/favicon.svg">
   <meta name="theme-color" content="#2563eb">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -24,23 +24,40 @@
   <link rel="stylesheet" href="/styles.css">
   <script src="/config.js"></script>
   <script src="/monetize.js"></script>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Free Invoice Generator for Photographers – PDF in 60 Seconds | QuickInvoice","description":"Free invoice generator for photographers. Add your logo, bill sessions, editing and prints, apply deposits and tax, and download a clean PDF invoice in your browser.","url":"https://quickinvoice-tool.vercel.app/invoice-generator-for-photographers","isPartOf":{"@type":"WebSite","name":"QuickInvoice","url":"https://quickinvoice-tool.vercel.app/"}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Free Invoice Generator for Photographers – PDF in 60 Seconds | QuickInvoice","description":"Free invoice generator for photographers. Add your logo, bill sessions, editing and prints, deduct the deposit, apply tax and download a PDF in your browser.","url":"https://quickinvoice-tool.vercel.app/invoice-generator-for-photographers","isPartOf":{"@type":"WebSite","name":"QuickInvoice","url":"https://quickinvoice-tool.vercel.app/"}}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"QuickInvoice","item":"https://quickinvoice-tool.vercel.app/"},{"@type":"ListItem","position":2,"name":"Invoice Generator for Photographers","item":"https://quickinvoice-tool.vercel.app/invoice-generator-for-photographers"}]}</script>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can I add my photography logo and brand color?","acceptedAnswer":{"@type":"Answer","text":"Yes. Upload a PNG, JPG or SVG logo in the business section and choose an accent color. Both are saved in your browser, so every future invoice uses them automatically."}},{"@type":"Question","name":"How do I show a deposit the client already paid?","acceptedAnswer":{"@type":"Answer","text":"Set the discount type to Fixed and enter the deposit amount. The invoice shows the full price, the deduction and the balance due. Mention the date it was received in the notes."}},{"@type":"Question","name":"Should I invoice per image or per session?","acceptedAnswer":{"@type":"Answer","text":"Both work. Use quantity for per-image pricing (40 retouched images × $8) and a single line with quantity 1 for a flat session fee. Keep licensing on its own line for commercial clients."}},{"@type":"Question","name":"Is the PDF good enough to send to corporate clients?","acceptedAnswer":{"@type":"Answer","text":"Yes. The PDF is generated through your browser's print dialog at full resolution, with your logo, sequential invoice number, dates, totals and tax clearly laid out."}}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can I add my photography logo and brand color?","acceptedAnswer":{"@type":"Answer","text":"Yes. Upload a PNG, JPG or SVG logo and choose an accent color. Both are saved in your browser, so every future invoice uses them automatically."}},{"@type":"Question","name":"How do I show a deposit the client already paid?","acceptedAnswer":{"@type":"Answer","text":"Set the discount type to Fixed and enter the deposit. The invoice shows the full price, the deduction and the balance due."}},{"@type":"Question","name":"Should I invoice per image or per session?","acceptedAnswer":{"@type":"Answer","text":"Both work. Use quantity for per-image pricing (40 retouched images × $8) and a single line with quantity 1 for a flat session fee."}},{"@type":"Question","name":"Is the PDF good enough for corporate clients?","acceptedAnswer":{"@type":"Answer","text":"Yes. It is generated through your browser's print dialog at full resolution, with logo, sequential number, dates, totals and tax clearly laid out."}}]}</script>
 </head>
 <body>
 
 <header class="site-header">
   <div class="container">
+    <div class="navbar">
     <a class="brand" href="/" aria-label="QuickInvoice home">
       <span class="brand-mark" aria-hidden="true"></span>
       <span class="brand-text"><span class="brand-name">QuickInvoice</span><span class="brand-desc">Invoice generator</span></span>
     </a>
     <nav class="nav" aria-label="Main">
+      <details class="more-tools">
+        <summary class="btn btn-ghost btn-sm">More tools ▾</summary>
+        <div class="menu">
+          <a href="https://quickinvoice-tool.vercel.app" class="current"><span class="mi">Q</span>QuickInvoice<small>Invoices</small></a>
+          <a href="https://ratecalc-tool.vercel.app"><span class="mi">R</span>RateCalc<small>Freelance rates</small></a>
+          <a href="https://qrforge-tool.vercel.app"><span class="mi">Q</span>QRForge<small>QR codes</small></a>
+          <a href="https://squish-tool.vercel.app"><span class="mi">S</span>Squish<small>Image compressor</small></a>
+          <a href="https://growthcalc-tool.vercel.app"><span class="mi">G</span>GrowthCalc<small>Compound interest</small></a>
+          <a href="https://subnetkit-tool.vercel.app"><span class="mi">N</span>SubnetKit<small>IP subnets</small></a>
+          <a href="https://shotstudio-tool.vercel.app"><span class="mi">S</span>Screenshot Studio<small>Screenshot mockups</small></a>
+          <a href="https://mockuplab-tool.vercel.app"><span class="mi">M</span>Social Mockup Lab<small>Chat & post mockups</small></a>
+          <a href="https://carouselmaker-tool.vercel.app"><span class="mi">C</span>Carousel Maker<small>Carousel slides</small></a>
+        </div>
+      </details>
+      <span class="sep" aria-hidden="true"></span>
       <span class="brand-by">by <b>Be Management</b></span>
       <button class="btn btn-primary btn-sm" onclick="openPro('nav')">Pro</button>
       <button class="btn icon-btn" onclick="toggleTheme()" aria-label="Toggle theme">◐</button>
     </nav>
+    </div>
   </div>
 </header>
 
@@ -292,17 +309,17 @@
 <section class="content container">
   <p class="breadcrumb"><a href="/">QuickInvoice</a> › Invoice Generator for Photographers</p>
   <h2>Invoice Generator for Photographers: how it works</h2>
-  <p>A photography invoice has more moving parts than most: a session fee, retouching, licensing, prints, travel, and very often a deposit that was paid weeks ago. QuickInvoice lets you list each of those as its own line item, subtract the retainer as a fixed discount, and send a PDF that matches the quote the client already agreed to.</p><p>The tool is free and runs entirely in your browser. Upload your logo once, pick an accent color that matches your portfolio site, and your next invoice takes under a minute.</p>
+  <p>A photography invoice has more moving parts than most: a session fee, retouching, licensing, prints, travel, and usually a deposit paid weeks earlier. QuickInvoice lets you list each as its own line item, subtract the retainer as a fixed discount, and send a PDF that matches the quote the client already approved.</p><p>The tool is free and runs entirely in your browser. Upload your logo once, pick an accent color that matches your portfolio site, and the next invoice takes under a minute.</p>
   <h2>What to include on a photography invoice</h2>
-  <p>Clients approve invoices faster when they can match every line to the shoot they remember. Include:</p><ul><li><strong>Shoot details</strong> – date, location and type (wedding, headshots, product) in the description or notes.</li><li><strong>Session fee</strong> as a single line, with hours as the quantity if you bill hourly.</li><li><strong>Post-production</strong> – retouching and culling billed separately, either per image or per hour.</li><li><strong>Deliverables</strong> – prints, albums and USB drives with quantity and unit price.</li><li><strong>Usage or licensing</strong> for commercial work, stating the term and media (web only, print, 12 months).</li><li><strong>Travel and expenses</strong> – mileage, parking, second-shooter fees.</li><li><strong>Retainer already paid</strong> – enter it as a fixed discount so the balance due is obvious.</li></ul><p>Finish with a due date and the payment methods you accept in the notes field.</p>
+  <p>Clients approve invoices faster when every line matches the shoot they remember:</p><ul><li><strong>Shoot details</strong> – date, location and type (wedding, headshots, product) in the notes.</li><li><strong>Session fee</strong> as one line, with hours as the quantity if you bill hourly.</li><li><strong>Post-production</strong> – retouching and culling billed per image or per hour.</li><li><strong>Deliverables</strong> – prints, albums and USB drives with quantity and unit price.</li><li><strong>Usage or licensing</strong> for commercial work, stating term and media (web only, print, 12 months).</li><li><strong>Travel and expenses</strong> – mileage, parking, second-shooter fees.</li><li><strong>Retainer already paid</strong> – entered as a fixed discount so the balance due is obvious.</li></ul><p>Finish with a due date and the payment methods you accept.</p>
   <h2>Deposits, sales tax and delivery terms</h2>
-  <p>Most photographers collect 25–50% up front. Rather than creating a second invoice, show the full price, then apply the deposit as a fixed discount labelled in the notes ("Retainer received 12 March"). The client sees the agreed total and the remaining balance on one page.</p><p>Tax treatment varies. In many US states, physical prints are taxable while the session itself is not; in the UK and EU, VAT applies to the whole service if you are registered. Use the tax percentage field for the taxable portion and spell out the rule in the notes so there are no questions later.</p><p>State clearly when the gallery or files are released: "Edited images delivered within 14 days of final payment" protects you from chasing unpaid balances after delivery.</p>
+  <p>Most photographers collect 25–50% up front. Rather than creating a second invoice, show the full price and apply the deposit as a fixed discount, labelled in the notes ("Retainer received 12 March"). The client sees the agreed total and the remaining balance on one page.</p><p>Tax treatment varies: in many US states physical prints are taxable while the session is not, and VAT-registered photographers in the UK and EU charge VAT on the whole service. Use the tax field for the taxable portion and state the rule in the notes.</p><p>Say when files are released. "Edited images delivered within 14 days of final payment" saves you from chasing balances after delivery.</p>
   <h2>Frequently asked questions</h2>
   <div class="faq">
-    <details><summary>Can I add my photography logo and brand color?</summary><p>Yes. Upload a PNG, JPG or SVG logo in the business section and choose an accent color. Both are saved in your browser, so every future invoice uses them automatically.</p></details>
-    <details><summary>How do I show a deposit the client already paid?</summary><p>Set the discount type to Fixed and enter the deposit amount. The invoice shows the full price, the deduction and the balance due. Mention the date it was received in the notes.</p></details>
-    <details><summary>Should I invoice per image or per session?</summary><p>Both work. Use quantity for per-image pricing (40 retouched images × $8) and a single line with quantity 1 for a flat session fee. Keep licensing on its own line for commercial clients.</p></details>
-    <details><summary>Is the PDF good enough to send to corporate clients?</summary><p>Yes. The PDF is generated through your browser's print dialog at full resolution, with your logo, sequential invoice number, dates, totals and tax clearly laid out.</p></details>
+    <details><summary>Can I add my photography logo and brand color?</summary><p>Yes. Upload a PNG, JPG or SVG logo and choose an accent color. Both are saved in your browser, so every future invoice uses them automatically.</p></details>
+    <details><summary>How do I show a deposit the client already paid?</summary><p>Set the discount type to Fixed and enter the deposit. The invoice shows the full price, the deduction and the balance due.</p></details>
+    <details><summary>Should I invoice per image or per session?</summary><p>Both work. Use quantity for per-image pricing (40 retouched images × $8) and a single line with quantity 1 for a flat session fee.</p></details>
+    <details><summary>Is the PDF good enough for corporate clients?</summary><p>Yes. It is generated through your browser's print dialog at full resolution, with logo, sequential number, dates, totals and tax clearly laid out.</p></details>
   </div>
   <p class="back-guide">Looking for the full guide, tips and the complete FAQ? Read the <a href="/">main QuickInvoice page</a>.</p>
 </section>
@@ -325,6 +342,9 @@
         <li><a href="https://squish-tool.vercel.app">Squish · Image compressor</a></li>
         <li><a href="https://growthcalc-tool.vercel.app">GrowthCalc · Compound interest</a></li>
         <li><a href="https://subnetkit-tool.vercel.app">SubnetKit · IP subnets</a></li>
+        <li><a href="https://shotstudio-tool.vercel.app">Screenshot Studio · Screenshot mockups</a></li>
+        <li><a href="https://mockuplab-tool.vercel.app">Social Mockup Lab · Chat & post mockups</a></li>
+        <li><a href="https://carouselmaker-tool.vercel.app">Carousel Maker · Carousel slides</a></li>
       </ul>
     </div>
     <div class="footer-meta">

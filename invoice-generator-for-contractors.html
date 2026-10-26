@@ -4,17 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Free Invoice Generator for Contractors – Labor, Materials &amp; Tax | QuickInvoice</title>
-  <meta name="description" content="Free invoice generator for contractors and trades. Separate labor from materials, add markup, tax and progress payments, then download a PDF invoice straight from your browser.">
+  <meta name="description" content="Free invoice generator for contractors: itemize labor and materials, add deposits, retainage and sales tax, then download a professional PDF in a minute.">
   <link rel="canonical" href="https://quickinvoice-tool.vercel.app/invoice-generator-for-contractors">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://quickinvoice-tool.vercel.app/invoice-generator-for-contractors">
   <meta property="og:title" content="Free Invoice Generator for Contractors – Labor, Materials &amp; Tax | QuickInvoice">
-  <meta property="og:description" content="Free invoice generator for contractors and trades. Separate labor from materials, add markup, tax and progress payments, then download a PDF invoice straight from your browser.">
+  <meta property="og:description" content="Free invoice generator for contractors: itemize labor and materials, add deposits, retainage and sales tax, then download a professional PDF in a minute.">
   <meta property="og:image" content="https://quickinvoice-tool.vercel.app/favicon.svg">
   <meta property="og:site_name" content="QuickInvoice">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Free Invoice Generator for Contractors – Labor, Materials &amp; Tax | QuickInvoice">
-  <meta name="twitter:description" content="Free invoice generator for contractors and trades. Separate labor from materials, add markup, tax and progress payments, then download a PDF invoice straight from your browser.">
+  <meta name="twitter:description" content="Free invoice generator for contractors: itemize labor and materials, add deposits, retainage and sales tax, then download a professional PDF in a minute.">
   <meta name="twitter:image" content="https://quickinvoice-tool.vercel.app/favicon.svg">
   <meta name="theme-color" content="#2563eb">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -24,23 +24,40 @@
   <link rel="stylesheet" href="/styles.css">
   <script src="/config.js"></script>
   <script src="/monetize.js"></script>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Free Invoice Generator for Contractors – Labor, Materials & Tax | QuickInvoice","description":"Free invoice generator for contractors and trades. Separate labor from materials, add markup, tax and progress payments, then download a PDF invoice straight from your browser.","url":"https://quickinvoice-tool.vercel.app/invoice-generator-for-contractors","isPartOf":{"@type":"WebSite","name":"QuickInvoice","url":"https://quickinvoice-tool.vercel.app/"}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Free Invoice Generator for Contractors – Labor, Materials & Tax | QuickInvoice","description":"Free invoice generator for contractors: itemize labor and materials, add deposits, retainage and sales tax, then download a professional PDF in a minute.","url":"https://quickinvoice-tool.vercel.app/invoice-generator-for-contractors","isPartOf":{"@type":"WebSite","name":"QuickInvoice","url":"https://quickinvoice-tool.vercel.app/"}}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"QuickInvoice","item":"https://quickinvoice-tool.vercel.app/"},{"@type":"ListItem","position":2,"name":"Invoice Generator for Contractors","item":"https://quickinvoice-tool.vercel.app/invoice-generator-for-contractors"}]}</script>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can I use this on a phone at the job site?","acceptedAnswer":{"@type":"Answer","text":"Yes. The page is responsive and the PDF is created through your phone's share or print dialog. Choose Save as PDF and send it by text or email."}},{"@type":"Question","name":"How do I apply tax only to materials?","acceptedAnswer":{"@type":"Answer","text":"The tax field applies a percentage to the subtotal, so if only materials are taxable, calculate that amount and enter it as a separate line, or note the tax basis in the notes field. For mixed jobs, many contractors bill materials on a separate invoice."}},{"@type":"Question","name":"Can I show the deposit the client paid?","acceptedAnswer":{"@type":"Answer","text":"Set the discount to Fixed and enter the deposit amount. The invoice shows the job total, the deposit deduction and the remaining balance."}},{"@type":"Question","name":"Does the invoice include my license number?","acceptedAnswer":{"@type":"Answer","text":"Put it in the address / tax ID field under your business details. It prints under your name on every invoice, which several states require for licensed trades."}}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can I use this on a phone at the job site?","acceptedAnswer":{"@type":"Answer","text":"Yes. The page is responsive and the PDF is created through your phone's print or share dialog. Choose Save as PDF and send it by text or email."}},{"@type":"Question","name":"How do I apply tax only to materials?","acceptedAnswer":{"@type":"Answer","text":"The tax field applies to the subtotal, so for mixed jobs either bill materials on a separate invoice or enter the tax amount as its own line and explain the basis in the notes."}},{"@type":"Question","name":"Can I show the deposit the client paid?","acceptedAnswer":{"@type":"Answer","text":"Set the discount to Fixed and enter the deposit. The invoice shows the job total, the deduction and the remaining balance."}},{"@type":"Question","name":"Does the invoice include my license number?","acceptedAnswer":{"@type":"Answer","text":"Put it in the address / tax ID field under your business details. It prints under your name, which several states require for licensed trades."}}]}</script>
 </head>
 <body>
 
 <header class="site-header">
   <div class="container">
+    <div class="navbar">
     <a class="brand" href="/" aria-label="QuickInvoice home">
       <span class="brand-mark" aria-hidden="true"></span>
       <span class="brand-text"><span class="brand-name">QuickInvoice</span><span class="brand-desc">Invoice generator</span></span>
     </a>
     <nav class="nav" aria-label="Main">
+      <details class="more-tools">
+        <summary class="btn btn-ghost btn-sm">More tools ▾</summary>
+        <div class="menu">
+          <a href="https://quickinvoice-tool.vercel.app" class="current"><span class="mi">Q</span>QuickInvoice<small>Invoices</small></a>
+          <a href="https://ratecalc-tool.vercel.app"><span class="mi">R</span>RateCalc<small>Freelance rates</small></a>
+          <a href="https://qrforge-tool.vercel.app"><span class="mi">Q</span>QRForge<small>QR codes</small></a>
+          <a href="https://squish-tool.vercel.app"><span class="mi">S</span>Squish<small>Image compressor</small></a>
+          <a href="https://growthcalc-tool.vercel.app"><span class="mi">G</span>GrowthCalc<small>Compound interest</small></a>
+          <a href="https://subnetkit-tool.vercel.app"><span class="mi">N</span>SubnetKit<small>IP subnets</small></a>
+          <a href="https://shotstudio-tool.vercel.app"><span class="mi">S</span>Screenshot Studio<small>Screenshot mockups</small></a>
+          <a href="https://mockuplab-tool.vercel.app"><span class="mi">M</span>Social Mockup Lab<small>Chat & post mockups</small></a>
+          <a href="https://carouselmaker-tool.vercel.app"><span class="mi">C</span>Carousel Maker<small>Carousel slides</small></a>
+        </div>
+      </details>
+      <span class="sep" aria-hidden="true"></span>
       <span class="brand-by">by <b>Be Management</b></span>
       <button class="btn btn-primary btn-sm" onclick="openPro('nav')">Pro</button>
       <button class="btn icon-btn" onclick="toggleTheme()" aria-label="Toggle theme">◐</button>
     </nav>
+    </div>
   </div>
 </header>
 
@@ -292,17 +309,17 @@
 <section class="content container">
   <p class="breadcrumb"><a href="/">QuickInvoice</a> › Invoice Generator for Contractors</p>
   <h2>Invoice Generator for Contractors: how it works</h2>
-  <p>Contractor invoices get disputed when labor and materials are lumped together or when a progress payment isn't reflected. QuickInvoice lets you list every item with a quantity and unit price, apply tax only where it belongs, and show the balance after the deposit, all on a PDF the homeowner or general contractor can forward to their bank.</p><p>It is free, works in your browser on a phone or laptop, and keeps your business details, logo and saved invoices locally. No app to install, no account.</p>
+  <p>Contractor invoices get disputed when labor and materials are lumped together or a progress payment isn't reflected. QuickInvoice lists every item with quantity and unit price, applies tax where it belongs, and shows the balance after the deposit on a PDF the homeowner or general contractor can forward to their bank.</p><p>It is free, works in your browser on a phone or laptop, and keeps your business details, logo and saved invoices locally. No app, no account.</p>
   <h2>Separating labor, materials and extras</h2>
-  <p>A clear contractor invoice groups work so the client can check it against the estimate:</p><ul><li><strong>Labor</strong> – one line per task or per trade ("Demo and haul-away", "Framing – 16 hrs × $65"). Hours as quantity, rate as unit price.</li><li><strong>Materials</strong> – list major items with quantity and unit cost. If you add markup, either bake it into the unit price or show a "Materials handling 10%" line; don't hide it.</li><li><strong>Permits, dump fees and equipment rental</strong> – pass-through costs on their own lines.</li><li><strong>Change orders</strong> – anything outside the original scope, with the date the client approved it.</li></ul><p>Reference the estimate or job number and the property address in the notes. For sales tax, many jurisdictions tax materials but not labor; enter only the taxable portion or note the rule in writing.</p>
+  <p>Group the work so the client can check it against the estimate:</p><ul><li><strong>Labor</strong> – one line per task ("Framing – 16 hrs × $65"). Hours as quantity, rate as unit price.</li><li><strong>Materials</strong> – major items with quantity and unit cost. If you add markup, bake it into the price or show a "Materials handling 10%" line; don't hide it.</li><li><strong>Permits, dump fees, equipment rental</strong> – pass-through costs on their own lines.</li><li><strong>Change orders</strong> – anything outside the original scope, with the date the client approved it.</li></ul><p>Put the estimate number and property address in the notes. Many jurisdictions tax materials but not labor; enter only the taxable portion or note the rule in writing.</p>
   <h2>Progress billing and final invoices</h2>
-  <p>On jobs that run more than a couple of weeks, bill in stages: deposit, rough-in, and completion are common. Use a sequential invoice number for each stage (INV-0041, INV-0042) and mention the stage in the notes ("Progress payment 2 of 3 – drywall complete"). To show a deposit already received, apply it as a fixed discount so the balance due is explicit.</p><p>On the final invoice, include a short statement of completion and any warranty terms ("Workmanship warranted for 12 months"). Set a due date that matches your contract; 7–14 days is typical for residential work, net 30 for commercial GCs. Keep a copy: click Save invoice and it stays in your browser history for your records.</p>
+  <p>On jobs running more than a couple of weeks, bill in stages: deposit, rough-in, completion. Use a sequential number for each (INV-0041, INV-0042) and name the stage in the notes ("Progress payment 2 of 3 – drywall complete"). To show a deposit already received, apply it as a fixed discount so the balance due is explicit.</p><p>On the final invoice add a short statement of completion and any warranty terms ("Workmanship warranted for 12 months"). Set a due date that matches your contract: 7–14 days is typical for residential work, net 30 for commercial GCs. Click Save invoice to keep a copy in your browser history.</p>
   <h2>Frequently asked questions</h2>
   <div class="faq">
-    <details><summary>Can I use this on a phone at the job site?</summary><p>Yes. The page is responsive and the PDF is created through your phone's share or print dialog. Choose Save as PDF and send it by text or email.</p></details>
-    <details><summary>How do I apply tax only to materials?</summary><p>The tax field applies a percentage to the subtotal, so if only materials are taxable, calculate that amount and enter it as a separate line, or note the tax basis in the notes field. For mixed jobs, many contractors bill materials on a separate invoice.</p></details>
-    <details><summary>Can I show the deposit the client paid?</summary><p>Set the discount to Fixed and enter the deposit amount. The invoice shows the job total, the deposit deduction and the remaining balance.</p></details>
-    <details><summary>Does the invoice include my license number?</summary><p>Put it in the address / tax ID field under your business details. It prints under your name on every invoice, which several states require for licensed trades.</p></details>
+    <details><summary>Can I use this on a phone at the job site?</summary><p>Yes. The page is responsive and the PDF is created through your phone's print or share dialog. Choose Save as PDF and send it by text or email.</p></details>
+    <details><summary>How do I apply tax only to materials?</summary><p>The tax field applies to the subtotal, so for mixed jobs either bill materials on a separate invoice or enter the tax amount as its own line and explain the basis in the notes.</p></details>
+    <details><summary>Can I show the deposit the client paid?</summary><p>Set the discount to Fixed and enter the deposit. The invoice shows the job total, the deduction and the remaining balance.</p></details>
+    <details><summary>Does the invoice include my license number?</summary><p>Put it in the address / tax ID field under your business details. It prints under your name, which several states require for licensed trades.</p></details>
   </div>
   <p class="back-guide">Looking for the full guide, tips and the complete FAQ? Read the <a href="/">main QuickInvoice page</a>.</p>
 </section>
@@ -325,6 +342,9 @@
         <li><a href="https://squish-tool.vercel.app">Squish · Image compressor</a></li>
         <li><a href="https://growthcalc-tool.vercel.app">GrowthCalc · Compound interest</a></li>
         <li><a href="https://subnetkit-tool.vercel.app">SubnetKit · IP subnets</a></li>
+        <li><a href="https://shotstudio-tool.vercel.app">Screenshot Studio · Screenshot mockups</a></li>
+        <li><a href="https://mockuplab-tool.vercel.app">Social Mockup Lab · Chat & post mockups</a></li>
+        <li><a href="https://carouselmaker-tool.vercel.app">Carousel Maker · Carousel slides</a></li>
       </ul>
     </div>
     <div class="footer-meta">
