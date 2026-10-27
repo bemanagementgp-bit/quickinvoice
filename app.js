@@ -57,8 +57,13 @@
     return m[1] + String(parseInt(m[2], 10) + 1).padStart(width, '0');
   }
   function lsGet(key, fallback) {
-    try { const v = localStorage.getItem(key); return v ? JSON.parse(v) : fallback; } catch (e) { return fallback; }
+    try { const v = localStorage.getItem(key); return v ? JSON.parse(v, safeReviver) : fallback; } catch (e) { return fallback; }
   }
+  // Drops prototype-polluting keys from parsed JSON (localStorage is user/extension writable).
+  function safeReviver(k, v) { return (k === '__proto__' || k === 'constructor' || k === 'prototype') ? undefined : v; }
+  function str(v, max) { return (typeof v === 'string' ? v : typeof v === 'number' ? String(v) : '').slice(0, max || 2000); }
+  // Only data:image/ URLs (from FileReader) are accepted as logo sources.
+  function safeLogo(u) { u = String(u || ''); return /^data:image\/(png|jpe?g|gif|webp|svg\+xml|bmp|x-icon|avif);base64,[a-z0-9+/=\s]+$/i.test(u) ? u : ''; }
   function lsSet(key, value) {
     try { localStorage.setItem(key, JSON.stringify(value)); return true; }
     catch (e) { toast('Could not save – browser storage is full. Try a smaller logo.'); return false; }
@@ -104,16 +109,16 @@
     const base = sampleState();
     s = s && typeof s === 'object' ? s : {};
     const out = {
-      biz: Object.assign({ name: '', email: '', address: '', logo: '' }, s.biz || {}),
-      client: Object.assign({ name: '', email: '', address: '' }, s.client || {}),
-      number: s.number || base.number,
-      issueDate: s.issueDate || base.issueDate,
-      dueDate: s.dueDate || base.dueDate,
-      currency: CURRENCY_LOCALE[s.currency] ? s.currency : 'USD',
-      items: Array.isArray(s.items) && s.items.length ? s.items.map(i => ({ desc: String(i.desc || ''), qty: num(i.qty), price: num(i.price) })) : [blankItem()],
+      biz: { name: str((s.biz || {}).name, 200), email: str((s.biz || {}).email, 200), address: str((s.biz || {}).address, 1000), logo: safeLogo((s.biz || {}).logo) },
+      client: { name: str((s.client || {}).name, 200), email: str((s.client || {}).email, 200), address: str((s.client || {}).address, 1000) },
+      number: str(s.number || base.number, 60),
+      issueDate: /^\d{4}-\d{2}-\d{2}$/.test(s.issueDate || '') ? s.issueDate : base.issueDate,
+      dueDate: /^\d{4}-\d{2}-\d{2}$/.test(s.dueDate || '') ? s.dueDate : base.dueDate,
+      currency: Object.prototype.hasOwnProperty.call(CURRENCY_LOCALE, s.currency) ? s.currency : 'USD',
+      items: Array.isArray(s.items) && s.items.length ? s.items.slice(0, 500).map(i => ({ desc: str((i || {}).desc, 1000), qty: num((i || {}).qty), price: num((i || {}).price) })) : [blankItem()],
       taxRate: num(s.taxRate), discountType: s.discountType === 'fixed' ? 'fixed' : 'percent',
       discountValue: num(s.discountValue), shipping: num(s.shipping),
-      notes: String(s.notes || ''),
+      notes: str(s.notes, 5000),
       accent: /^#[0-9a-f]{6}$/i.test(s.accent || '') ? s.accent : DEFAULT_ACCENT,
       template: TEMPLATES.includes(s.template) ? s.template : 'classic'
     };
@@ -124,6 +129,7 @@
   let state = normalize(lsGet(LS.state, null) || sampleState());
   let history = lsGet(LS.history, []);
   if (!Array.isArray(history)) history = [];
+  history = history.filter(h => h && typeof h === 'object');
 
   const saveState = debounce(() => lsSet(LS.state, state), 350);
 
@@ -192,10 +198,10 @@
     state.biz.name = F.bizName.value; state.biz.email = F.bizEmail.value; state.biz.address = F.bizAddress.value;
     state.client.name = F.clientName.value; state.client.email = F.clientEmail.value; state.client.address = F.clientAddress.value;
     state.number = F.invoiceNumber.value.trim(); state.issueDate = F.issueDate.value; state.dueDate = F.dueDate.value;
-    state.currency = F.currency.value;
+    state.currency = Object.prototype.hasOwnProperty.call(CURRENCY_LOCALE, F.currency.value) ? F.currency.value : 'USD';
     state.taxRate = num(F.taxRate.value); state.discountType = F.discountType.value;
     state.discountValue = num(F.discountValue.value); state.shipping = num(F.shipping.value);
-    state.notes = F.notes.value; state.accent = F.accentColor.value || DEFAULT_ACCENT;
+    state.notes = F.notes.value; state.accent = /^#[0-9a-f]{6}$/i.test(F.accentColor.value) ? F.accentColor.value : DEFAULT_ACCENT;
     state.items = Array.from(F.itemsBody.querySelectorAll('tr')).map(tr => ({
       desc: tr.querySelector('.it-desc').value,
       qty: num(tr.querySelector('.it-qty').value),
@@ -207,7 +213,7 @@
   // ---------- logo ----------
   function renderLogoThumb() {
     if (state.biz.logo) {
-      F.logoThumb.innerHTML = '<img alt="Your logo" src="' + state.biz.logo + '">';
+      F.logoThumb.innerHTML = '<img alt="Your logo" src="' + esc(safeLogo(state.biz.logo)) + '">';
       F.removeLogo.classList.remove('hidden');
     } else {
       F.logoThumb.innerHTML = '<span class="hint">No logo</span>';
@@ -239,6 +245,8 @@
     reader.readAsDataURL(file);
   }
   function setLogo(dataUrl) {
+    dataUrl = safeLogo(dataUrl);
+    if (!dataUrl) { toast('Could not read that file.'); return; }
     state.biz.logo = dataUrl;
     renderLogoThumb(); renderPreview(); saveState();
     toast('Logo added');
@@ -273,7 +281,7 @@
       '<div class="inv-bar"></div>' +
       '<header class="inv-head">' +
         '<div class="inv-biz">' +
-          (s.biz.logo ? '<img class="inv-logo" alt="" src="' + s.biz.logo + '">' : '') +
+          (safeLogo(s.biz.logo) ? '<img class="inv-logo" alt="" src="' + esc(safeLogo(s.biz.logo)) + '">' : '') +
           '<div class="inv-biz-name">' + (esc(s.biz.name) || 'Your business name') + '</div>' +
           '<div class="inv-biz-meta">' + esc([s.biz.email, s.biz.address].filter(Boolean).join('\n')) + '</div>' +
         '</div>' +
@@ -321,7 +329,7 @@
   }
 
   // ---------- history ----------
-  function saveHistory() { lsSet(LS.history, history); }
+  function saveHistory() { return lsSet(LS.history, history); }
   function renderHistory() {
     F.historyList.innerHTML = '';
     history.forEach(h => {

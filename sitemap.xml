@@ -1,14 +1,597 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://quickinvoice-tool.vercel.app/</loc><lastmod>2026-10-27</lastmod><changefreq>monthly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://quickinvoice-tool.vercel.app/invoice-generator-for-photographers</loc><lastmod>2026-10-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://quickinvoice-tool.vercel.app/freelance-writer-invoice-template</loc><lastmod>2026-10-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://quickinvoice-tool.vercel.app/invoice-generator-for-contractors</loc><lastmod>2026-10-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://quickinvoice-tool.vercel.app/consulting-invoice-template</loc><lastmod>2026-10-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://quickinvoice-tool.vercel.app/invoice-for-graphic-designers</loc><lastmod>2026-10-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://quickinvoice-tool.vercel.app/cleaning-service-invoice</loc><lastmod>2026-10-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://quickinvoice-tool.vercel.app/tutoring-invoice-template</loc><lastmod>2026-10-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://quickinvoice-tool.vercel.app/handyman-invoice-template</loc><lastmod>2026-10-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://quickinvoice-tool.vercel.app/privacy</loc><lastmod>2026-10-27</lastmod><changefreq>monthly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://quickinvoice-tool.vercel.app/terms</loc><lastmod>2026-10-27</lastmod><changefreq>monthly</changefreq><priority>0.3</priority></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url><loc>https://quickinvoice-tool.vercel.app/cleaning-service-invoice</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/cleaning-service-invoice"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/cleaning-service-invoice"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/cleaning-service-invoice"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/cleaning-service-invoice"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/cleaning-service-invoice"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/cleaning-service-invoice"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/cleaning-service-invoice"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/es/cleaning-service-invoice</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/cleaning-service-invoice"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/cleaning-service-invoice"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/cleaning-service-invoice"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/cleaning-service-invoice"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/cleaning-service-invoice"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/cleaning-service-invoice"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/cleaning-service-invoice"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/pt/cleaning-service-invoice</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/cleaning-service-invoice"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/cleaning-service-invoice"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/cleaning-service-invoice"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/cleaning-service-invoice"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/cleaning-service-invoice"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/cleaning-service-invoice"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/cleaning-service-invoice"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/fr/cleaning-service-invoice</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/cleaning-service-invoice"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/cleaning-service-invoice"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/cleaning-service-invoice"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/cleaning-service-invoice"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/cleaning-service-invoice"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/cleaning-service-invoice"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/cleaning-service-invoice"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/de/cleaning-service-invoice</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/cleaning-service-invoice"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/cleaning-service-invoice"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/cleaning-service-invoice"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/cleaning-service-invoice"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/cleaning-service-invoice"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/cleaning-service-invoice"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/cleaning-service-invoice"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/it/cleaning-service-invoice</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/cleaning-service-invoice"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/cleaning-service-invoice"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/cleaning-service-invoice"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/cleaning-service-invoice"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/cleaning-service-invoice"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/cleaning-service-invoice"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/cleaning-service-invoice"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/consulting-invoice-template</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/consulting-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/consulting-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/consulting-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/consulting-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/consulting-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/consulting-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/consulting-invoice-template"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/es/consulting-invoice-template</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/consulting-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/consulting-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/consulting-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/consulting-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/consulting-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/consulting-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/consulting-invoice-template"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/pt/consulting-invoice-template</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/consulting-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/consulting-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/consulting-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/consulting-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/consulting-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/consulting-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/consulting-invoice-template"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/fr/consulting-invoice-template</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/consulting-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/consulting-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/consulting-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/consulting-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/consulting-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/consulting-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/consulting-invoice-template"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/de/consulting-invoice-template</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/consulting-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/consulting-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/consulting-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/consulting-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/consulting-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/consulting-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/consulting-invoice-template"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/it/consulting-invoice-template</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/consulting-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/consulting-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/consulting-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/consulting-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/consulting-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/consulting-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/consulting-invoice-template"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/freelance-writer-invoice-template</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/freelance-writer-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/freelance-writer-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/freelance-writer-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/freelance-writer-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/freelance-writer-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/freelance-writer-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/freelance-writer-invoice-template"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/es/freelance-writer-invoice-template</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/freelance-writer-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/freelance-writer-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/freelance-writer-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/freelance-writer-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/freelance-writer-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/freelance-writer-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/freelance-writer-invoice-template"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/pt/freelance-writer-invoice-template</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/freelance-writer-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/freelance-writer-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/freelance-writer-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/freelance-writer-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/freelance-writer-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/freelance-writer-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/freelance-writer-invoice-template"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/fr/freelance-writer-invoice-template</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/freelance-writer-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/freelance-writer-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/freelance-writer-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/freelance-writer-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/freelance-writer-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/freelance-writer-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/freelance-writer-invoice-template"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/de/freelance-writer-invoice-template</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/freelance-writer-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/freelance-writer-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/freelance-writer-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/freelance-writer-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/freelance-writer-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/freelance-writer-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/freelance-writer-invoice-template"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/it/freelance-writer-invoice-template</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/freelance-writer-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/freelance-writer-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/freelance-writer-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/freelance-writer-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/freelance-writer-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/freelance-writer-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/freelance-writer-invoice-template"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/handyman-invoice-template</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/handyman-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/handyman-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/handyman-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/handyman-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/handyman-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/handyman-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/handyman-invoice-template"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/es/handyman-invoice-template</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/handyman-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/handyman-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/handyman-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/handyman-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/handyman-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/handyman-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/handyman-invoice-template"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/pt/handyman-invoice-template</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/handyman-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/handyman-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/handyman-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/handyman-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/handyman-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/handyman-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/handyman-invoice-template"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/fr/handyman-invoice-template</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/handyman-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/handyman-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/handyman-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/handyman-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/handyman-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/handyman-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/handyman-invoice-template"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/de/handyman-invoice-template</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/handyman-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/handyman-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/handyman-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/handyman-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/handyman-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/handyman-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/handyman-invoice-template"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/it/handyman-invoice-template</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/handyman-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/handyman-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/handyman-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/handyman-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/handyman-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/handyman-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/handyman-invoice-template"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/</loc><lastmod>2026-10-27</lastmod><priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/es/</loc><lastmod>2026-10-27</lastmod><priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/pt/</loc><lastmod>2026-10-27</lastmod><priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/fr/</loc><lastmod>2026-10-27</lastmod><priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/de/</loc><lastmod>2026-10-27</lastmod><priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/it/</loc><lastmod>2026-10-27</lastmod><priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/invoice-for-graphic-designers</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/invoice-for-graphic-designers"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/invoice-for-graphic-designers"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/invoice-for-graphic-designers"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/invoice-for-graphic-designers"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/invoice-for-graphic-designers"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/invoice-for-graphic-designers"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/invoice-for-graphic-designers"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/es/invoice-for-graphic-designers</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/invoice-for-graphic-designers"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/invoice-for-graphic-designers"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/invoice-for-graphic-designers"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/invoice-for-graphic-designers"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/invoice-for-graphic-designers"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/invoice-for-graphic-designers"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/invoice-for-graphic-designers"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/pt/invoice-for-graphic-designers</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/invoice-for-graphic-designers"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/invoice-for-graphic-designers"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/invoice-for-graphic-designers"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/invoice-for-graphic-designers"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/invoice-for-graphic-designers"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/invoice-for-graphic-designers"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/invoice-for-graphic-designers"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/fr/invoice-for-graphic-designers</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/invoice-for-graphic-designers"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/invoice-for-graphic-designers"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/invoice-for-graphic-designers"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/invoice-for-graphic-designers"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/invoice-for-graphic-designers"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/invoice-for-graphic-designers"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/invoice-for-graphic-designers"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/de/invoice-for-graphic-designers</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/invoice-for-graphic-designers"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/invoice-for-graphic-designers"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/invoice-for-graphic-designers"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/invoice-for-graphic-designers"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/invoice-for-graphic-designers"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/invoice-for-graphic-designers"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/invoice-for-graphic-designers"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/it/invoice-for-graphic-designers</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/invoice-for-graphic-designers"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/invoice-for-graphic-designers"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/invoice-for-graphic-designers"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/invoice-for-graphic-designers"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/invoice-for-graphic-designers"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/invoice-for-graphic-designers"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/invoice-for-graphic-designers"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/invoice-generator-for-contractors</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/invoice-generator-for-contractors"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/invoice-generator-for-contractors"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/invoice-generator-for-contractors"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/invoice-generator-for-contractors"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/invoice-generator-for-contractors"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/invoice-generator-for-contractors"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/invoice-generator-for-contractors"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/es/invoice-generator-for-contractors</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/invoice-generator-for-contractors"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/invoice-generator-for-contractors"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/invoice-generator-for-contractors"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/invoice-generator-for-contractors"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/invoice-generator-for-contractors"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/invoice-generator-for-contractors"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/invoice-generator-for-contractors"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/pt/invoice-generator-for-contractors</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/invoice-generator-for-contractors"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/invoice-generator-for-contractors"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/invoice-generator-for-contractors"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/invoice-generator-for-contractors"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/invoice-generator-for-contractors"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/invoice-generator-for-contractors"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/invoice-generator-for-contractors"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/fr/invoice-generator-for-contractors</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/invoice-generator-for-contractors"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/invoice-generator-for-contractors"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/invoice-generator-for-contractors"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/invoice-generator-for-contractors"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/invoice-generator-for-contractors"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/invoice-generator-for-contractors"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/invoice-generator-for-contractors"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/de/invoice-generator-for-contractors</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/invoice-generator-for-contractors"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/invoice-generator-for-contractors"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/invoice-generator-for-contractors"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/invoice-generator-for-contractors"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/invoice-generator-for-contractors"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/invoice-generator-for-contractors"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/invoice-generator-for-contractors"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/it/invoice-generator-for-contractors</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/invoice-generator-for-contractors"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/invoice-generator-for-contractors"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/invoice-generator-for-contractors"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/invoice-generator-for-contractors"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/invoice-generator-for-contractors"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/invoice-generator-for-contractors"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/invoice-generator-for-contractors"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/invoice-generator-for-photographers</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/invoice-generator-for-photographers"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/invoice-generator-for-photographers"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/invoice-generator-for-photographers"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/invoice-generator-for-photographers"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/invoice-generator-for-photographers"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/invoice-generator-for-photographers"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/invoice-generator-for-photographers"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/es/invoice-generator-for-photographers</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/invoice-generator-for-photographers"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/invoice-generator-for-photographers"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/invoice-generator-for-photographers"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/invoice-generator-for-photographers"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/invoice-generator-for-photographers"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/invoice-generator-for-photographers"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/invoice-generator-for-photographers"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/pt/invoice-generator-for-photographers</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/invoice-generator-for-photographers"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/invoice-generator-for-photographers"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/invoice-generator-for-photographers"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/invoice-generator-for-photographers"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/invoice-generator-for-photographers"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/invoice-generator-for-photographers"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/invoice-generator-for-photographers"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/fr/invoice-generator-for-photographers</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/invoice-generator-for-photographers"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/invoice-generator-for-photographers"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/invoice-generator-for-photographers"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/invoice-generator-for-photographers"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/invoice-generator-for-photographers"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/invoice-generator-for-photographers"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/invoice-generator-for-photographers"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/de/invoice-generator-for-photographers</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/invoice-generator-for-photographers"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/invoice-generator-for-photographers"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/invoice-generator-for-photographers"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/invoice-generator-for-photographers"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/invoice-generator-for-photographers"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/invoice-generator-for-photographers"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/invoice-generator-for-photographers"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/it/invoice-generator-for-photographers</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/invoice-generator-for-photographers"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/invoice-generator-for-photographers"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/invoice-generator-for-photographers"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/invoice-generator-for-photographers"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/invoice-generator-for-photographers"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/invoice-generator-for-photographers"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/invoice-generator-for-photographers"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/privacy</loc><lastmod>2026-10-27</lastmod><priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/privacy"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/privacy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/privacy"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/privacy"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/es/privacy</loc><lastmod>2026-10-27</lastmod><priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/privacy"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/privacy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/privacy"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/privacy"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/pt/privacy</loc><lastmod>2026-10-27</lastmod><priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/privacy"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/privacy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/privacy"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/privacy"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/fr/privacy</loc><lastmod>2026-10-27</lastmod><priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/privacy"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/privacy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/privacy"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/privacy"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/de/privacy</loc><lastmod>2026-10-27</lastmod><priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/privacy"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/privacy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/privacy"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/privacy"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/it/privacy</loc><lastmod>2026-10-27</lastmod><priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/privacy"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/privacy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/privacy"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/privacy"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/terms</loc><lastmod>2026-10-27</lastmod><priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/terms"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/terms"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/terms"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/terms"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/terms"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/terms"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/es/terms</loc><lastmod>2026-10-27</lastmod><priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/terms"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/terms"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/terms"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/terms"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/terms"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/terms"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/pt/terms</loc><lastmod>2026-10-27</lastmod><priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/terms"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/terms"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/terms"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/terms"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/terms"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/terms"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/fr/terms</loc><lastmod>2026-10-27</lastmod><priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/terms"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/terms"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/terms"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/terms"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/terms"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/terms"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/de/terms</loc><lastmod>2026-10-27</lastmod><priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/terms"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/terms"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/terms"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/terms"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/terms"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/terms"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/it/terms</loc><lastmod>2026-10-27</lastmod><priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/terms"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/terms"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/terms"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/terms"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/terms"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/terms"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/tutoring-invoice-template</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/tutoring-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/tutoring-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/tutoring-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/tutoring-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/tutoring-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/tutoring-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/tutoring-invoice-template"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/es/tutoring-invoice-template</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/tutoring-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/tutoring-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/tutoring-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/tutoring-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/tutoring-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/tutoring-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/tutoring-invoice-template"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/pt/tutoring-invoice-template</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/tutoring-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/tutoring-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/tutoring-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/tutoring-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/tutoring-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/tutoring-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/tutoring-invoice-template"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/fr/tutoring-invoice-template</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/tutoring-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/tutoring-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/tutoring-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/tutoring-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/tutoring-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/tutoring-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/tutoring-invoice-template"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/de/tutoring-invoice-template</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/tutoring-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/tutoring-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/tutoring-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/tutoring-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/tutoring-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/tutoring-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/tutoring-invoice-template"/>
+  </url>
+  <url><loc>https://quickinvoice-tool.vercel.app/it/tutoring-invoice-template</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/tutoring-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/tutoring-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/tutoring-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/tutoring-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/tutoring-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/tutoring-invoice-template"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/tutoring-invoice-template"/>
+  </url>
 </urlset>

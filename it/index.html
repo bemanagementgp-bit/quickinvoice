@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Generatore di fatture gratis – Crea e scarica fatture PDF online | QuickInvoice</title>
+  <meta name="description" content="Crea fatture professionali in pochi secondi con QuickInvoice, un generatore di fatture online gratuito. Aggiungi logo, voci, imposte e sconti, poi scarica un PDF. Senza registrazione.">
+  <link rel="canonical" href="https://quickinvoice-tool.vercel.app/it/">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://quickinvoice-tool.vercel.app/it/">
+  <meta property="og:title" content="Generatore di fatture gratis – Crea e scarica fatture PDF online | QuickInvoice">
+  <meta property="og:description" content="Generatore di fatture online gratuito. Aggiungi logo, voci, imposte e sconti, guarda l'anteprima in tempo reale e scarica una fattura PDF. Nessun account, nessun caricamento.">
+  <meta property="og:image" content="https://quickinvoice-tool.vercel.app/favicon.svg">
+  <meta property="og:site_name" content="QuickInvoice">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Generatore di fatture gratis – QuickInvoice">
+  <meta name="twitter:description" content="Crea e scarica fatture PDF professionali gratis. Funziona nel browser, senza registrazione, i tuoi dati non lasciano mai il dispositivo.">
+  <meta name="twitter:image" content="https://quickinvoice-tool.vercel.app/favicon.svg">
+  <meta name="theme-color" content="#050403">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="QuickInvoice">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"QuickInvoice – Generatore di fatture gratis","url":"https://quickinvoice-tool.vercel.app/","description":"Generatore di fatture online gratuito. Crea fatture professionali con logo, voci, imposte e sconti, poi scaricale in PDF. Funziona interamente nel tuo browser.","applicationCategory":"BusinessApplication","operatingSystem":"Any","browserRequirements":"Requires JavaScript","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"featureList":["Anteprima della fattura in tempo reale","Scarica la fattura in PDF","Caricamento del logo","10 valute","Imposte, sconto e spedizione","Salva le fatture in locale"]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"QuickInvoice è davvero gratis?","acceptedAnswer":{"@type":"Answer","text":"Sì. Creare, visualizzare e scaricare fatture PDF è completamente gratuito, senza limiti al numero di fatture generate. Un upgrade Pro opzionale una tantum rimuove la piccola riga di brand, sblocca fatture salvate illimitate e aggiunge due modelli premium."}},{"@type":"Question","name":"Serve un account per creare una fattura?","acceptedAnswer":{"@type":"Answer","text":"No. Non servono registrazione, login o email. Apri la pagina, inserisci i dati e scarica la fattura."}},{"@type":"Question","name":"I dati delle mie fatture sono privati?","acceptedAnswer":{"@type":"Answer","text":"Sì. Tutto resta nel tuo browser. I dati della tua attività, le informazioni sui clienti, il logo e le fatture salvate sono conservati nella memoria locale del browser e non vengono mai caricati su un server. Il PDF viene generato in locale tramite la finestra di stampa del browser."}},{"@type":"Question","name":"Posso aggiungere il mio logo alla fattura?","acceptedAnswer":{"@type":"Answer","text":"Sì. Carica un logo PNG, JPG o SVG nella sezione La tua attività. Compare in cima alla fattura e viene ricordato per la fattura successiva che crei sullo stesso dispositivo."}},{"@type":"Question","name":"Posso salvare le fatture e riprenderle più tardi?","acceptedAnswer":{"@type":"Answer","text":"Sì. Il modulo si salva automaticamente mentre scrivi, quindi la fattura corrente viene ripristinata quando torni. Puoi anche fare clic su Salva fattura per conservarne una copia nella cronologia locale e ricaricarla o eliminarla in seguito. Gli utenti gratuiti possono conservare fino a 3 fatture salvate; Pro elimina il limite."}},{"@type":"Question","name":"Cosa include QuickInvoice Pro?","acceptedAnswer":{"@type":"Answer","text":"Pro è un acquisto a vita una tantum. Rimuove la riga Generated with QuickInvoice dalle fatture stampate, ti dà fatture e clienti salvati illimitati, sblocca i modelli Modern e Minimal e include gli aggiornamenti a vita."}}]}</script>
+  <script src="/config.js"></script>
+  <script src="/i18n.js"></script>
+  <script src="/consent.js"></script>
+  <script src="/monetize.js"></script>
+  <!-- hreflang:start -->
+  <meta name="bm-langs" content="en,es,pt,fr,de,it">
+  <link rel="alternate" hreflang="en" href="https://quickinvoice-tool.vercel.app/">
+  <link rel="alternate" hreflang="es" href="https://quickinvoice-tool.vercel.app/es/">
+  <link rel="alternate" hreflang="pt" href="https://quickinvoice-tool.vercel.app/pt/">
+  <link rel="alternate" hreflang="fr" href="https://quickinvoice-tool.vercel.app/fr/">
+  <link rel="alternate" hreflang="de" href="https://quickinvoice-tool.vercel.app/de/">
+  <link rel="alternate" hreflang="it" href="https://quickinvoice-tool.vercel.app/it/">
+  <link rel="alternate" hreflang="x-default" href="https://quickinvoice-tool.vercel.app/">
+  <!-- hreflang:end -->
+  <meta property="og:locale" content="it_IT">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <div class="navbar">
+    <a class="brand" href="/it/" aria-label="Home di QuickInvoice">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span class="brand-text"><span class="brand-name">QuickInvoice</span><span class="brand-desc">Generatore di fatture</span></span>
+    </a>
+    <nav class="nav" aria-label="Principale">
+      <details class="more-tools">
+        <summary class="btn btn-ghost btn-sm" aria-label="Altri strumenti"><span class="mt-label">Altri strumenti</span> ▾</summary>
+        <div class="menu">
+          <a href="https://quickinvoice-tool.vercel.app" class="current"><span class="mi">Q</span>QuickInvoice<small>Fatture</small></a>
+          <a href="https://ratecalc-tool.vercel.app"><span class="mi">R</span>RateCalc<small>Tariffe freelance</small></a>
+          <a href="https://qrforge-tool.vercel.app"><span class="mi">Q</span>QRForge<small>Codici QR</small></a>
+          <a href="https://squish-tool.vercel.app"><span class="mi">S</span>Squish<small>Compressore di immagini</small></a>
+          <a href="https://growthcalc-tool.vercel.app"><span class="mi">G</span>GrowthCalc<small>Interesse composto</small></a>
+          <a href="https://subnetkit-tool.vercel.app"><span class="mi">N</span>SubnetKit<small>Subnet IP</small></a>
+          <a href="https://shotstudio-tool.vercel.app"><span class="mi">S</span>Screenshot Studio<small>Mockup di screenshot</small></a>
+          <a href="https://mockuplab-tool.vercel.app"><span class="mi">M</span>Social Mockup Lab<small>Mockup di chat e post</small></a>
+          <a href="https://carouselmaker-tool.vercel.app"><span class="mi">C</span>Carousel Maker<small>Slide per caroselli</small></a>
+          <a href="https://creativeresize-tool.vercel.app"><span class="mi">R</span>Creative Resize<small>Formati social</small></a>
+          <a href="https://framelab-tool.vercel.app"><span class="mi">F</span>Frame Lab<small>Cornici e mockup per foto</small></a>
+          <a href="https://giveaway-tool.vercel.app"><span class="mi">G</span>Giveaway Picker<small>Giveaway su Instagram</small></a>
+          <a href="https://iplookup-tool.vercel.app"><span class="mi">I</span>IP Lookup<small>Ricerca IP</small></a>
+          <a href="https://sizeconverter-tool.vercel.app"><span class="mi">Z</span>Size Converter<small>Ridimensiona immagini e video</small></a>
+        </div>
+      </details>
+      <span class="sep" aria-hidden="true"></span>
+      <span class="brand-by">di <b>Be Management</b></span>
+      <button class="btn btn-sm hidden" id="installBtn" data-action="install" title="Installa questo strumento come app">⤓ Installa</button>
+      <span class="lang-switch"><select id="langSelect" aria-label="Language" translate="no"><option value="en">EN</option></select></span>
+      <button class="btn btn-primary btn-sm" data-action="pro" data-arg="nav">Pro</button>
+      <button class="btn icon-btn" data-action="theme" aria-label="Cambia tema">◐</button>
+    </nav>
+    </div>
+  </div>
+</header>
+
+<section class="hero container">
+  <span class="eyebrow"><span class="dot" aria-hidden="true"></span>Be Management Tools · Fatturazione</span>
+  <h1>Generatore di fatture gratis</h1>
+  <p class="tagline">Inserisci i tuoi dati, aggiungi le voci e scarica una fattura PDF professionale in meno di un minuto. Nessun account, nessun caricamento.</p>
+  <div class="badges" aria-label="In evidenza">
+  <span class="badge">100% gratis</span>
+  <span class="badge">Nessuna registrazione</span>
+  <span class="badge">Funziona nel tuo browser</span>
+  <span class="badge">Nessun caricamento</span>
+  <span class="badge">10 valute</span>
+  </div>
+</section>
+
+<main class="container">
+  <div class="tool-layout">
+    <div class="tool-column">
+
+      <!-- ===== Form ===== -->
+      <section class="card tool-card" aria-labelledby="formTitle">
+        <div class="row-between">
+          <h2 id="formTitle">Dettagli della fattura</h2>
+          <button class="btn btn-sm" id="btnNew" type="button" title="Inizia una nuova fattura con il numero successivo">+ Nuova fattura</button>
+        </div>
+
+        <div class="form-section">
+          <h3>La tua attività</h3>
+          <div class="grid-2">
+            <div class="field">
+              <label for="bizName">Nome dell'attività</label>
+              <input id="bizName" type="text" placeholder="Northwind Design Studio" autocomplete="organization">
+            </div>
+            <div class="field">
+              <label for="bizEmail">Email</label>
+              <input id="bizEmail" type="email" placeholder="ciao@tuaattivita.com" autocomplete="email">
+            </div>
+          </div>
+          <div class="grid-2">
+            <div class="field">
+              <label for="bizAddress">Indirizzo / partita IVA</label>
+              <textarea id="bizAddress" rows="3" placeholder="Street, City, ZIP&#10;VAT / Tax ID"></textarea>
+            </div>
+            <div class="field">
+              <label for="bizLogo">Logo (facoltativo)</label>
+              <div class="logo-field">
+                <div class="logo-thumb" id="logoThumb" aria-live="polite"><span class="hint">Nessun logo</span></div>
+                <div class="row">
+                  <input id="bizLogo" type="file" accept="image/png,image/jpeg,image/svg+xml,image/webp" class="file-input">
+                  <button class="btn btn-sm btn-danger hidden" id="removeLogo" type="button">Rimuovi</button>
+                </div>
+              </div>
+              <p class="hint">PNG, JPG, SVG o WebP. Salvato solo nel tuo browser.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-section">
+          <h3>Fatturare a</h3>
+          <div class="grid-2">
+            <div class="field">
+              <label for="clientName">Nome del cliente</label>
+              <input id="clientName" type="text" placeholder="Acme Robotics Inc.">
+            </div>
+            <div class="field">
+              <label for="clientEmail">Email del cliente</label>
+              <input id="clientEmail" type="email" placeholder="amministrazione@cliente.com">
+            </div>
+          </div>
+          <div class="field">
+            <label for="clientAddress">Indirizzo del cliente</label>
+            <textarea id="clientAddress" rows="2" placeholder="Street, City, ZIP, Country"></textarea>
+          </div>
+        </div>
+
+        <div class="form-section">
+          <h3>Info fattura</h3>
+          <div class="grid-4 invoice-meta">
+            <div class="field">
+              <label for="invoiceNumber">Numero fattura</label>
+              <input id="invoiceNumber" type="text" placeholder="INV-0001">
+            </div>
+            <div class="field">
+              <label for="issueDate">Data di emissione</label>
+              <input id="issueDate" type="date">
+            </div>
+            <div class="field">
+              <label for="dueDate">Data di scadenza</label>
+              <input id="dueDate" type="date">
+            </div>
+            <div class="field">
+              <label for="currency">Valuta</label>
+              <select id="currency">
+                <option value="USD">USD – Dollaro statunitense</option>
+                <option value="EUR">EUR – Euro</option>
+                <option value="GBP">GBP – Sterlina britannica</option>
+                <option value="CAD">CAD – Dollaro canadese</option>
+                <option value="AUD">AUD – Dollaro australiano</option>
+                <option value="MXN">MXN – Peso messicano</option>
+                <option value="BRL">BRL – Real brasiliano</option>
+                <option value="ARS">ARS – Peso argentino</option>
+                <option value="INR">INR – Rupia indiana</option>
+                <option value="JPY">JPY – Yen giapponese</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-section">
+          <div class="row-between">
+            <h3>Voci</h3>
+            <button class="btn btn-sm" id="addItem" type="button">+ Aggiungi voce</button>
+          </div>
+          <div class="table-wrap">
+            <table class="items-table" aria-label="Voci">
+              <thead>
+                <tr>
+                  <th scope="col">Descrizione</th>
+                  <th scope="col" class="num col-qty">Qtà</th>
+                  <th scope="col" class="num col-price">Prezzo unitario</th>
+                  <th scope="col" class="num col-amount">Importo</th>
+                  <th scope="col" class="col-del"><span class="sr-only">Rimuovi</span></th>
+                </tr>
+              </thead>
+              <tbody id="itemsBody"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="form-section">
+          <h3>Totali e note</h3>
+          <div class="grid-4 invoice-meta">
+            <div class="field">
+              <label for="taxRate">Imposta %</label>
+              <input id="taxRate" type="number" min="0" max="100" step="0.01" inputmode="decimal" placeholder="0">
+            </div>
+            <div class="field">
+              <label for="discountValue">Sconto</label>
+              <div class="row discount-row">
+                <input id="discountValue" type="number" min="0" step="0.01" inputmode="decimal" placeholder="0" aria-label="Valore dello sconto">
+                <select id="discountType" aria-label="Tipo di sconto">
+                  <option value="percent">%</option>
+                  <option value="fixed">Fisso</option>
+                </select>
+              </div>
+            </div>
+            <div class="field">
+              <label for="shipping">Spedizione</label>
+              <input id="shipping" type="number" min="0" step="0.01" inputmode="decimal" placeholder="0">
+            </div>
+            <div class="field">
+              <label for="accentColor">Colore principale</label>
+              <div class="row">
+                <input id="accentColor" type="color" value="#2563eb">
+                <button class="btn btn-sm" id="resetAccent" type="button" title="Ripristina il blu predefinito">Ripristina</button>
+              </div>
+            </div>
+          </div>
+          <div class="field">
+            <label for="notes">Note / condizioni di pagamento</label>
+            <textarea id="notes" rows="3" placeholder="Payment due within 14 days by bank transfer…"></textarea>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== Preview ===== -->
+      <section class="card preview-card" aria-labelledby="previewTitle">
+        <div class="preview-toolbar no-print">
+          <div class="row-between">
+            <h2 id="previewTitle">Anteprima</h2>
+            <div class="template-picker" role="group" aria-label="Modello">
+              <button class="tpl-btn active" type="button" data-template="classic">Classic</button>
+              <button class="tpl-btn" type="button" data-template="modern">Modern <span class="lock" aria-hidden="true">🔒</span></button>
+              <button class="tpl-btn" type="button" data-template="minimal">Minimal <span class="lock" aria-hidden="true">🔒</span></button>
+            </div>
+          </div>
+          <div class="row actions">
+            <button class="btn btn-primary" id="btnDownload" type="button">⬇ Scarica PDF</button>
+            <button class="btn" id="btnPrint" type="button">🖨 Stampa</button>
+            <button class="btn" id="btnCopy" type="button">📋 Copia testo da condividere</button>
+            <button class="btn" id="btnSave" type="button">💾 Salva fattura</button>
+          </div>
+          <p class="hint">Scarica PDF apre la finestra di stampa del browser – scegli <strong>Salva come PDF</strong> come destinazione.</p>
+        </div>
+
+        <div class="preview-stage">
+          <div class="invoice-preview tpl-classic" id="invoicePreview" aria-live="polite" aria-label="Anteprima della fattura"></div>
+        </div>
+      </section>
+
+      <!-- ===== History ===== -->
+      <section class="card history-card" aria-labelledby="historyTitle">
+        <div class="row-between">
+          <h2 id="historyTitle">Fatture salvate <span class="count-badge" id="historyCount">0</span></h2>
+          <span class="hint" id="historyLimit"></span>
+        </div>
+        <ul class="history-list" id="historyList" aria-label="Fatture salvate"></ul>
+        <p class="hint empty-hint" id="historyEmpty">Ancora nessuna fattura salvata. Fai clic su <strong>Salva fattura</strong> per conservarne una copia qui.</p>
+      </section>
+
+    </div>
+
+    <aside class="sidebar">
+      <div class="ad-slot" data-slot="sidebar-1"></div>
+      <div class="card pro-card">
+        <h3>Passa a Pro <span class="pro-badge">A VITA</span></h3>
+        <ul>
+          <li>Nessuna riga "Generated with QuickInvoice"</li>
+          <li>Fatture e clienti salvati illimitati</li>
+          <li>3 modelli premium</li>
+          <li>Aggiornamenti a vita, paghi una volta</li>
+        </ul>
+        <button class="btn btn-primary btn-block" data-action="pro" data-arg="sidebar">Passa a Pro – <span data-pro-price></span></button>
+      </div>
+      <div class="card lead-card" id="leadCard" hidden>
+        <h3>Fatti pagare prima</h3>
+        <p class="hint">Modelli di fattura, formule per le condizioni di pagamento e nuovi strumenti gratuiti, una o due volte al mese.</p>
+        <form class="lead-form" data-action="newsletter">
+          <input type="email" name="email" required placeholder="tu@email.com" aria-label="Indirizzo email" autocomplete="email">
+          <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="display:none" aria-hidden="true">
+          <button class="btn btn-primary" type="submit">Abbonati</button>
+        </form>
+        <p class="hint tiny">Niente spam. Annulli l'iscrizione quando vuoi.</p>
+      </div>
+      <div class="ad-slot" data-slot="sidebar-2"></div>
+    </aside>
+  </div>
+
+  <div class="ad-slot horizontal" data-slot="below-tool"></div>
+</main>
+
+<!-- uses:start -->
+<section class="uses container" id="popular-uses" aria-labelledby="usesTitle">
+  <h2 id="usesTitle">Modi più comuni di usare QuickInvoice</h2>
+  <ul class="uses-grid">
+      <li><a href="/it/invoice-generator-for-photographers">Generatore di fatture per fotografi</a></li>
+      <li><a href="/it/freelance-writer-invoice-template">Modello di fattura per scrittori freelance</a></li>
+      <li><a href="/it/invoice-generator-for-contractors">Generatore di fatture per imprese edili</a></li>
+      <li><a href="/it/consulting-invoice-template">Modello di fattura per consulenza</a></li>
+      <li><a href="/it/invoice-for-graphic-designers">Fattura per graphic designer</a></li>
+      <li><a href="/it/cleaning-service-invoice">Fattura per servizi di pulizia</a></li>
+      <li><a href="/it/tutoring-invoice-template">Modello di fattura per ripetizioni</a></li>
+      <li><a href="/it/handyman-invoice-template">Modello di fattura per tuttofare</a></li>
+  </ul>
+</section>
+<!-- uses:end -->
+
+<section class="content container">
+  <div class="features">
+    <div class="feature"><div class="ic">⚡</div><h3>Anteprima in tempo reale</h3><p>Ogni tasto premuto aggiorna subito la fattura. Ciò che vedi è esattamente ciò che viene stampato.</p></div>
+    <div class="feature"><div class="ic">🔒</div><h3>Privato per natura</h3><p>Nessun account, nessun caricamento. I tuoi dati e il logo restano nella memoria locale del browser.</p></div>
+    <div class="feature"><div class="ic">🌍</div><h3>10 valute</h3><p>USD, EUR, GBP, CAD, AUD, MXN, BRL, ARS, INR e JPY, ciascuna formattata correttamente.</p></div>
+    <div class="feature"><div class="ic">💾</div><h3>Salva e riutilizza</h3><p>Salvataggio automatico, cronologia salvata e numerazione automatica: la fattura successiva richiede pochi secondi.</p></div>
+  </div>
+
+  <h2>Come creare una fattura in 60 secondi</h2>
+  <ol>
+    <li><strong>Aggiungi i dati della tua attività.</strong> Inserisci nome, email e indirizzo. Aggiungi il codice fiscale o la partita IVA, se li hai. Carica il logo una volta e verrà ricordato per le fatture future.</li>
+    <li><strong>Compila i dati del cliente.</strong> Usa la ragione sociale esatta dell'azienda o il nome della persona che ti paga, più l'email di chi gestisce i pagamenti.</li>
+    <li><strong>Controlla numero e date della fattura.</strong> QuickInvoice propone il numero progressivo successivo, la data di oggi e una scadenza a 14 giorni. Modifica la scadenza in base alle condizioni concordate.</li>
+    <li><strong>Aggiungi le voci.</strong> Una riga per ogni servizio o prodotto con descrizione chiara, quantità e prezzo unitario. Importo e totali si calcolano da soli.</li>
+    <li><strong>Imposta imposte, sconto e spedizione.</strong> Inserisci l'aliquota come percentuale e l'eventuale sconto come percentuale o importo fisso.</li>
+    <li><strong>Scarica il PDF.</strong> Fai clic su Scarica PDF, scegli Salva come PDF nella finestra di stampa e invia il file al cliente. Fai clic su Salva fattura per conservarne una copia nella cronologia.</li>
+  </ol>
+
+  <h2>Cosa deve contenere una fattura</h2>
+  <p>I requisiti variano da Paese a Paese, ma una fattura valida e professionale contiene quasi sempre i seguenti elementi. La mancanza di uno di questi è il motivo più comune per cui l'ufficio amministrativo respinge una fattura.</p>
+  <h3>La parola "Fattura" e un numero univoco</h3>
+  <p>Ogni fattura deve avere un identificativo univoco e progressivo, come INV-0042. Nella maggior parte dei Paesi il fisco richiede una numerazione progressiva senza salti e i clienti usano il numero come riferimento per i pagamenti. Non riutilizzare mai un numero, nemmeno se la fattura viene annullata: emetti invece una nota di credito.</p>
+  <h3>Data di emissione e data di scadenza</h3>
+  <p>La data di emissione stabilisce da quando decorre il termine di pagamento e a quale periodo fiscale appartiene la vendita. La data di scadenza rende esplicite le tue aspettative. "30 giorni" o "14 giorni" sono comuni, ma una data precisa è più chiara e più facile da sollecitare.</p>
+  <h3>Identità di venditore e acquirente</h3>
+  <p>La ragione sociale, l'indirizzo e i contatti della tua attività, più la ragione sociale e l'indirizzo di fatturazione del cliente. Se sei registrato ai fini IVA, GST o sales tax, il numero di registrazione è di solito obbligatorio. Nell'UE le fatture B2B in genere richiedono anche la partita IVA del cliente.</p>
+  <h3>Descrizione dettagliata di beni o servizi</h3>
+  <p>Ogni riga deve descrivere cosa è stato consegnato, la quantità o le ore, il prezzo unitario e il totale. Descrizioni vaghe come "consulenza" rallentano l'approvazione; "Restyling del sito – 5 pagine, consegnato il 12 ott" viene pagata.</p>
+  <h3>Imposte, sconti e totale dovuto</h3>
+  <p>Mostra il subtotale, l'eventuale sconto, l'aliquota e l'importo dell'imposta su righe separate, poi il totale complessivo con la valuta ben indicata. Se una vendita è esente o in inversione contabile, scrivilo in fattura.</p>
+  <h3>Condizioni e modalità di pagamento</h3>
+  <p>Indica i metodi accettati (bonifico, carta, PayPal), le coordinate, eventuali interessi di mora e un breve ringraziamento. Il campo note in fondo alla fattura è il posto giusto.</p>
+
+  <h2>Consigli per farti pagare prima</h2>
+  <ul>
+    <li><strong>Fattura subito.</strong> Invia la fattura il giorno stesso della consegna. Ogni giorno di ritardo da parte tua diventa un giorno di ritardo da parte loro.</li>
+    <li><strong>Intestala alla persona giusta.</strong> Prima di iniziare il progetto chiedi chi gestisce i pagamenti e inserisci quell'email nella fattura.</li>
+    <li><strong>Mantieni le condizioni brevi e precise.</strong> Il pagamento a 14 giorni arriva prima di quello a 30, e una scadenza come "15 novembre 2026" viene pagata prima di "entro 14 giorni".</li>
+    <li><strong>Offri più di un metodo di pagamento.</strong> Il bonifico è l'opzione più economica per te, ma offrire carta o PayPal elimina attriti con i clienti piccoli.</li>
+    <li><strong>Indica gli interessi di mora con garbo.</strong> Una riga come "Dopo la scadenza si applica una mora dell'1,5% mensile" è standard e legale quasi ovunque.</li>
+    <li><strong>Fai solleciti a cadenza regolare.</strong> Un promemoria cordiale alla scadenza e uno più deciso sette giorni dopo recuperano la maggior parte delle fatture in ritardo senza rovinare il rapporto.</li>
+  </ul>
+
+  <h2>A chi è rivolto QuickInvoice</h2>
+  <h3>Freelance</h3>
+  <p>Designer, sviluppatori, scrittori e consulenti che emettono poche fatture al mese e non vogliono pagare un software di contabilità. Logo, dati dell'attività e numero della prossima fattura sono pronti ogni volta che apri la pagina.</p>
+  <h3>Piccole imprese e progetti personali</h3>
+  <p>Negozi, studi e agenzie che hanno bisogno in fretta di una fattura pulita e con il proprio brand, in una qualsiasi di dieci valute, senza creare l'ennesimo account. Salva i clienti frequenti nella cronologia e ricaricali con un clic.</p>
+  <h3>Imprese edili e artigiani</h3>
+  <p>Aggiungi materiali e manodopera come voci separate, applica l'aliquota corretta, includi spedizione o trasferta e stampa la fattura in cantiere oppure invia il PDF via email dal telefono.</p>
+
+  <h2>Domande frequenti</h2>
+  <div class="faq">
+    <details>
+      <summary>QuickInvoice è davvero gratis?</summary>
+      <p>Sì. Creare, visualizzare e scaricare fatture PDF è completamente gratuito, senza limiti al numero di fatture generate. Un upgrade Pro opzionale una tantum rimuove la piccola riga di brand, sblocca fatture salvate illimitate e aggiunge due modelli premium.</p>
+    </details>
+    <details>
+      <summary>Serve un account per creare una fattura?</summary>
+      <p>No. Non servono registrazione, login o email. Apri la pagina, inserisci i dati e scarica la fattura.</p>
+    </details>
+    <details>
+      <summary>I dati delle mie fatture sono privati?</summary>
+      <p>Sì. Tutto resta nel tuo browser. I dati della tua attività, le informazioni sui clienti, il logo e le fatture salvate sono conservati nella memoria locale del browser e non vengono mai caricati su un server. Il PDF viene generato in locale tramite la finestra di stampa del browser.</p>
+    </details>
+    <details>
+      <summary>Posso aggiungere il mio logo alla fattura?</summary>
+      <p>Sì. Carica un logo PNG, JPG o SVG nella sezione La tua attività. Compare in cima alla fattura e viene ricordato per la fattura successiva che crei sullo stesso dispositivo.</p>
+    </details>
+    <details>
+      <summary>Posso salvare le fatture e riprenderle più tardi?</summary>
+      <p>Sì. Il modulo si salva automaticamente mentre scrivi, quindi la fattura corrente viene ripristinata quando torni. Puoi anche fare clic su Salva fattura per conservarne una copia nella cronologia locale e ricaricarla o eliminarla in seguito. Gli utenti gratuiti possono conservare fino a 3 fatture salvate; Pro elimina il limite.</p>
+    </details>
+    <details>
+      <summary>Cosa include QuickInvoice Pro?</summary>
+      <p>Pro è un acquisto a vita una tantum. Rimuove la riga Generated with QuickInvoice dalle fatture stampate, ti dà fatture e clienti salvati illimitati, sblocca i modelli Modern e Minimal e include gli aggiornamenti a vita.</p>
+    </details>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <span class="brand-mark lg" aria-hidden="true"></span>
+      <div>
+        <strong>Be Management Tools</strong>
+        <p>Una raccolta di strumenti gratuiti e privati che funzionano interamente nel tuo browser. QuickInvoice è il generatore di fatture della famiglia, creato e gestito da Be Management.</p>
+      </div>
+    </div>
+    <div class="footer-tools">
+      <strong>Altri strumenti gratuiti</strong>
+      <ul>
+        <li><a href="https://quickinvoice-tool.vercel.app" class="current">QuickInvoice · Fatture</a></li>
+        <li><a href="https://ratecalc-tool.vercel.app">RateCalc · Tariffe freelance</a></li>
+        <li><a href="https://qrforge-tool.vercel.app">QRForge · Codici QR</a></li>
+        <li><a href="https://squish-tool.vercel.app">Squish · Compressore di immagini</a></li>
+        <li><a href="https://growthcalc-tool.vercel.app">GrowthCalc · Interesse composto</a></li>
+        <li><a href="https://subnetkit-tool.vercel.app">SubnetKit · Subnet IP</a></li>
+        <li><a href="https://shotstudio-tool.vercel.app">Screenshot Studio · Mockup di screenshot</a></li>
+        <li><a href="https://mockuplab-tool.vercel.app">Social Mockup Lab · Mockup di chat e post</a></li>
+        <li><a href="https://carouselmaker-tool.vercel.app">Carousel Maker · Slide per caroselli</a></li>
+        <li><a href="https://creativeresize-tool.vercel.app">Creative Resize · Formati social</a></li>
+        <li><a href="https://framelab-tool.vercel.app">Frame Lab · Cornici e mockup per foto</a></li>
+        <li><a href="https://giveaway-tool.vercel.app">Giveaway Picker · Giveaway su Instagram</a></li>
+        <li><a href="https://iplookup-tool.vercel.app">IP Lookup · Ricerca IP</a></li>
+        <li><a href="https://sizeconverter-tool.vercel.app">Size Converter · Ridimensiona immagini e video</a></li>
+      </ul>
+    </div>
+    <div class="footer-meta">
+      <span>© <span data-year></span> Be Management · QuickInvoice. Generatore di fatture gratis.</span>
+      <span><a href="/it/privacy" data-i18n-href="/it/privacy">Privacy</a> · <a href="/it/terms" data-i18n-href="/it/terms">Termini</a> · <a href="#" data-action="cookie-settings">Impostazioni cookie</a> · <a href="https://www.bemanagement.pro" rel="noopener">bemanagement.pro</a></span>
+    </div>
+  </div>
+</footer>
+
+<div class="modal" id="proModal" role="dialog" aria-modal="true" aria-labelledby="proTitle">
+  <div class="card">
+    <button class="btn btn-sm close" data-action="close-pro" aria-label="Chiudi">✕</button>
+    <h3 id="proTitle">Passa a QuickInvoice Pro <span class="pro-badge">A VITA</span></h3>
+    <div class="price"><span id="proPrice"></span> <small>una tantum</small></div>
+    <ul class="benefits">
+      <li>✅ Nessuna riga di brand sulle fatture stampate</li>
+      <li>✅ Fatture e clienti salvati illimitati</li>
+      <li>✅ 3 modelli premium (Classic, Modern, Minimal)</li>
+      <li>✅ Aggiornamenti a vita</li>
+    </ul>
+    <button class="btn btn-primary btn-block" data-action="checkout">Passa a Pro</button>
+    <p class="hint" style="margin-top:12px">Hai già acquistato? <a href="#" data-action="toggle-license">Inserisci la chiave di licenza</a></p>
+    <div class="row hidden" id="licenseRow"><input id="licenseKey" placeholder="Chiave di licenza" aria-label="Chiave di licenza"><button class="btn" data-action="activate-license">Attiva</button></div>
+  </div>
+</div>
+<script src="/app.js"></script>
+</body>
+</html>
