@@ -257,6 +257,9 @@ td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
 
 
 
+
+
+
 /* ===== QuickInvoice – app specific ===== */
 .tool-column{display:flex;flex-direction:column;gap:24px;min-width:0}
 .form-section{padding-top:18px;margin-top:18px;border-top:1px solid var(--line)}
