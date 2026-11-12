@@ -72,34 +72,43 @@
   function templateAllowed(t) { return isPro() || FREE_TEMPLATES.includes(t); }
 
   // ---------- state ----------
+  // Neutral sample placeholders, per page language (see <html lang>).
+  const SAMPLE_TEXT = {
+    en: { biz: 'Your business', client: 'Client', item: 'Service or product' },
+    es: { biz: 'Tu negocio', client: 'Cliente', item: 'Servicio o producto' },
+    pt: { biz: 'Seu negócio', client: 'Cliente', item: 'Serviço ou produto' },
+    fr: { biz: 'Votre entreprise', client: 'Client', item: 'Service ou produit' },
+    de: { biz: 'Dein Unternehmen', client: 'Kunde', item: 'Dienstleistung oder Produkt' },
+    it: { biz: 'La tua attività', client: 'Cliente', item: 'Servizio o prodotto' }
+  };
+  function sampleText() { return SAMPLE_TEXT[(document.documentElement.lang || 'en').slice(0, 2)] || SAMPLE_TEXT.en; }
   function sampleState() {
     const today = todayISO();
+    const L = sampleText();
     return {
       biz: {
-        name: 'Northwind Design Studio',
-        email: 'hello@northwinddesign.co',
-        address: '412 Market Street, Suite 300\nSan Francisco, CA 94105\nTax ID: 94-1234567',
+        name: L.biz,
+        email: '',
+        address: '',
         logo: ''
       },
       client: {
-        name: 'Acme Robotics Inc.',
-        email: 'accounts@acmerobotics.com',
-        address: '88 Innovation Way\nAustin, TX 78701'
+        name: L.client,
+        email: '',
+        address: ''
       },
       number: 'INV-0001',
       issueDate: today,
       dueDate: addDaysISO(today, 14),
       currency: 'USD',
       items: [
-        { desc: 'Website redesign – homepage and 4 inner pages', qty: 1, price: 2400 },
-        { desc: 'Logo refresh and brand guidelines PDF', qty: 1, price: 850 },
-        { desc: 'Hosting setup and deployment (hours)', qty: 2, price: 95 }
+        { desc: L.item, qty: 1, price: 100 }
       ],
-      taxRate: 8.5,
+      taxRate: 0,
       discountType: 'percent',
-      discountValue: 5,
+      discountValue: 0,
       shipping: 0,
-      notes: 'Payment due within 14 days by bank transfer or PayPal.\nBank: First Bay Bank · Account 0012 3456 789 · Routing 121000358\nThank you for your business!',
+      notes: '',
       accent: DEFAULT_ACCENT,
       template: 'classic'
     };
